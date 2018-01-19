@@ -2,7 +2,7 @@ import React from "react";
 import DatePicker from "react-datepicker";
 import moment from "moment";
 
-export default class highlightDatesRanges extends React.Component {
+export default class highlightDatesRanges extends React.PureComponent {
   constructor(props) {
     super(props);
     this.highlightWithRanges = [

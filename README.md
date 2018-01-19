@@ -32,7 +32,7 @@ import "react-datepicker/dist/react-datepicker.css";
 // CSS Modules, react-datepicker-cssmodules.css
 // import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 
-class Example extends React.Component {
+class Example extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

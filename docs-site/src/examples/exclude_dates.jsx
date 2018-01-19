@@ -2,7 +2,7 @@ import React from "react";
 import DatePicker from "react-datepicker";
 import moment from "moment";
 
-export default class ExcludeDates extends React.Component {
+export default class ExcludeDates extends React.PureComponent {
   state = {
     startDate: null
   };

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export default class MonthDropdownOptions extends React.Component {
+export default class MonthDropdownOptions extends React.PureComponent {
   static propTypes = {
     onCancel: PropTypes.func.isRequired,
     onChange: PropTypes.func.isRequired,

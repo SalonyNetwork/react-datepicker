@@ -12,7 +12,7 @@ import {
   getDayOfWeekCode
 } from "./date_utils";
 
-export default class Day extends React.Component {
+export default class Day extends React.PureComponent {
   static propTypes = {
     disabledKeyboardNavigation: PropTypes.bool,
     day: PropTypes.object.isRequired,
@@ -193,9 +193,11 @@ export default class Day extends React.Component {
         aria-label={`day-${getDate(this.props.day)}`}
         role="option"
       >
-        {this.props.renderDayContents
-          ? this.props.renderDayContents(getDate(this.props.day))
-          : getDate(this.props.day)}
+        <span className="react-datepicker__day-text">
+          {this.props.renderDayContents
+            ? this.props.renderDayContents(getDate(this.props.day))
+            : getDate(this.props.day)}
+        </span>
       </div>
     );
   }

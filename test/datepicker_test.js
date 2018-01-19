@@ -409,7 +409,7 @@ describe("DatePicker", () => {
   });
 
   it("should mount and unmount properly", done => {
-    class TestComponent extends React.Component {
+    class TestComponent extends React.PureComponent {
       constructor(props) {
         super(props);
         this.state = { mounted: true };

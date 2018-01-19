@@ -2,7 +2,7 @@ import React from "react";
 import DatePicker from "react-datepicker";
 import moment from "moment";
 
-export default class MultiMonthInline extends React.Component {
+export default class MultiMonthInline extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

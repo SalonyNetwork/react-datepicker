@@ -13,7 +13,7 @@ import {
   timesToInjectAfter
 } from "./date_utils";
 
-export default class Time extends React.Component {
+export default class Time extends React.PureComponent {
   static propTypes = {
     format: PropTypes.string,
     includeTimes: PropTypes.array,

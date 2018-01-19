@@ -1,7 +1,7 @@
 import React from "react";
 import DatePicker from "react-datepicker";
 
-export default class FixedCalendar extends React.Component {
+export default class FixedCalendar extends React.PureComponent {
   state = {
     startDate: null
   };

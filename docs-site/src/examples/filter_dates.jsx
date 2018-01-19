@@ -1,7 +1,7 @@
 import React from "react";
 import DatePicker from "react-datepicker";
 
-export default class FilterDates extends React.Component {
+export default class FilterDates extends React.PureComponent {
   state = {
     date: null
   };

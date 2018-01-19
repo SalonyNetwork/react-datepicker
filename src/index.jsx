@@ -67,7 +67,7 @@ function hasSelectionChanged(date1, date2) {
  */
 const INPUT_ERR_1 = "Date input not valid.";
 
-export default class DatePicker extends React.Component {
+export default class DatePicker extends React.PureComponent {
   static propTypes = {
     adjustDateOnChange: PropTypes.bool,
     allowSameDay: PropTypes.bool,
@@ -164,7 +164,9 @@ export default class DatePicker extends React.Component {
     previousMonthButtonLabel: PropTypes.string,
     nextMonthButtonLabel: PropTypes.string,
     renderCustomHeader: PropTypes.func,
-    renderDayContents: PropTypes.func
+    renderDayContents: PropTypes.func,
+    prevButtonClassName: PropTypes.string,
+    nextButtonClassName: PropTypes.string
   };
 
   static get defaultProps() {
@@ -653,6 +655,8 @@ export default class DatePicker extends React.Component {
         renderCustomHeader={this.props.renderCustomHeader}
         popperProps={this.props.popperProps}
         renderDayContents={this.props.renderDayContents}
+        prevButtonClassName={this.props.prevButtonClassName}
+        nextButtonClassName={this.props.nextButtonClassName}
       >
         {this.props.children}
       </WrappedCalendar>

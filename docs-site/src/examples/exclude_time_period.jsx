@@ -2,7 +2,7 @@ import React from "react";
 import DatePicker from "react-datepicker";
 import moment from "moment";
 
-export default class ExcludeTimePeriod extends React.Component {
+export default class ExcludeTimePeriod extends React.PureComponent {
   state = {
     startDate: moment()
       .hours(17)

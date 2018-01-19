@@ -24,7 +24,7 @@ function generateYears(year, noOfYear, minDate, maxDate) {
   return list;
 }
 
-export default class YearDropdownOptions extends React.Component {
+export default class YearDropdownOptions extends React.PureComponent {
   static propTypes = {
     minDate: PropTypes.object,
     maxDate: PropTypes.object,

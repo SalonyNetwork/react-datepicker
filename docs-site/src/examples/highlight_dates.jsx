@@ -2,7 +2,7 @@ import React from "react";
 import DatePicker from "react-datepicker";
 import moment from "moment";
 
-export default class highlightDates extends React.Component {
+export default class highlightDates extends React.PureComponent {
   state = {
     startDate: null
   };

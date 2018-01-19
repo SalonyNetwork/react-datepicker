@@ -6,7 +6,7 @@ import * as utils from "./date_utils";
 
 const FIXED_HEIGHT_STANDARD_WEEK_COUNT = 6;
 
-export default class Month extends React.Component {
+export default class Month extends React.PureComponent {
   static propTypes = {
     disabledKeyboardNavigation: PropTypes.bool,
     day: PropTypes.object.isRequired,

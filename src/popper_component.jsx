@@ -18,7 +18,7 @@ export const popperPlacementPositions = [
   "top-start"
 ];
 
-export default class PopperComponent extends React.Component {
+export default class PopperComponent extends React.PureComponent {
   static propTypes = {
     className: PropTypes.string,
     hidePopper: PropTypes.bool,

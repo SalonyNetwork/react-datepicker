@@ -56,9 +56,9 @@ import RenderCustomHeader from "./examples/render_custom_header";
 import "react-datepicker/dist/react-datepicker.css";
 import "./style.scss";
 
-export default class exampleComponents extends React.Component {
-  componentDidMount() {
-    hljs.initHighlightingOnLoad();
+export default class exampleComponents extends React.PureComponent {
+  componentDidMount () {
+    hljs.initHighlightingOnLoad()
   }
 
   examples = [
