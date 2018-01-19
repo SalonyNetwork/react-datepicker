@@ -241,7 +241,6 @@ class MonthsList extends React.PureComponent {
 
   render() {
     var monthList = [];
-
     for (var i = 0; i < this.props.monthsShown; ++i) {
       var monthDate = addMonths(cloneDate(this.props.date), i);
       var monthKey = `month-${i}`;
