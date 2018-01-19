@@ -19,7 +19,7 @@ describe("Calendar", function() {
   const dateFormat = "MMMM YYYY";
 
   function getCalendar(extraProps) {
-    return shallow(
+    return mount(
       <Calendar
         dateFormat={dateFormat}
         onSelect={() => {}}
@@ -229,7 +229,6 @@ describe("Calendar", function() {
     });
 
     it("when clicking disabled month navigation, should not change month", function() {
-
       const calendar = getCalendar({
         minDate: utils.newDate(),
         maxDate: utils.newDate(),
@@ -260,7 +259,6 @@ describe("Calendar", function() {
     });
 
     it("when clicking non-disabled month navigation, should change month", function() {
-
       const calendar = getCalendar({
         selected: utils.newDate(),
         minDate: utils.subtractMonths(utils.newDate(), 3),
@@ -286,7 +284,6 @@ describe("Calendar", function() {
     });
   });
 
-
   it("should not show the month dropdown menu by default", function() {
     const calendar = getCalendar();
     const monthReadView = calendar.find(MonthDropdown);
@@ -306,9 +303,11 @@ describe("Calendar", function() {
   });
 
   it("should show the month-year dropdown menu if toggled on", function() {
-    const calendar = getCalendar({ showMonthYearDropdown: true,
-                                   minDate: utils.subtractYears(utils.newDate(), 1),
-                                   maxDate: utils.addYears(utils.newDate(), 1) });
+    const calendar = getCalendar({
+      showMonthYearDropdown: true,
+      minDate: utils.subtractYears(utils.newDate(), 1),
+      maxDate: utils.addYears(utils.newDate(), 1)
+    });
     const monthYearReadView = calendar.find(MonthYearDropdown);
     expect(monthYearReadView).to.have.length(1);
   });
@@ -592,17 +591,28 @@ describe("Calendar", function() {
     });
 
     it("calls onYearChange prop when selection is changed from month-year dropdown", () => {
-      const option = calendar.find(MonthYearDropdown).find("select").find("option").at(3);
+      const option = calendar
+        .find(MonthYearDropdown)
+        .find("select")
+        .find("option")
+        .at(3);
       option.simulate("change");
 
       assert(onYearChangeSpy.called === true, "onYearChange should be called");
     });
 
     it("calls onMonthChange prop when selection is changed from month-year dropdown", () => {
-      const option = calendar.find(MonthYearDropdown).find("select").find("option").at(3);
+      const option = calendar
+        .find(MonthYearDropdown)
+        .find("select")
+        .find("option")
+        .at(3);
       option.simulate("change");
 
-      assert(onMonthChangeSpy.called === true, "onMonthChange should be called");
+      assert(
+        onMonthChangeSpy.called === true,
+        "onMonthChange should be called"
+      );
     });
   });
 

@@ -28222,7 +28222,7 @@
 
       var _example_components2 = _interopRequireDefault(_example_components);
 
-      var _hero_example = __webpack_require__(401);
+      var _hero_example = __webpack_require__(402);
 
       var _hero_example2 = _interopRequireDefault(_hero_example);
 
@@ -28268,15 +28268,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Root = (function(_React$Component) {
-        _inherits(Root, _React$Component);
+      var Root = (function(_React$PureComponent) {
+        _inherits(Root, _React$PureComponent);
 
         function Root() {
           _classCallCheck(this, Root);
 
           return _possibleConstructorReturn(
             this,
-            _React$Component.apply(this, arguments)
+            _React$PureComponent.apply(this, arguments)
           );
         }
 
@@ -28410,7 +28410,7 @@
         };
 
         return Root;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = Root;
 
@@ -28434,201 +28434,201 @@
 
       var _default2 = _interopRequireDefault(_default);
 
-      var _code_example_component = __webpack_require__(355);
+      var _code_example_component = __webpack_require__(356);
 
       var _code_example_component2 = _interopRequireDefault(
         _code_example_component
       );
 
-      var _custom_date_format = __webpack_require__(356);
+      var _custom_date_format = __webpack_require__(357);
 
       var _custom_date_format2 = _interopRequireDefault(_custom_date_format);
 
-      var _custom_class_name = __webpack_require__(357);
+      var _custom_class_name = __webpack_require__(358);
 
       var _custom_class_name2 = _interopRequireDefault(_custom_class_name);
 
-      var _custom_calendar_class_name = __webpack_require__(358);
+      var _custom_calendar_class_name = __webpack_require__(359);
 
       var _custom_calendar_class_name2 = _interopRequireDefault(
         _custom_calendar_class_name
       );
 
-      var _custom_day_class_names = __webpack_require__(359);
+      var _custom_day_class_names = __webpack_require__(360);
 
       var _custom_day_class_names2 = _interopRequireDefault(
         _custom_day_class_names
       );
 
-      var _placeholder_text = __webpack_require__(360);
+      var _placeholder_text = __webpack_require__(361);
 
       var _placeholder_text2 = _interopRequireDefault(_placeholder_text);
 
-      var _specific_date_range = __webpack_require__(361);
+      var _specific_date_range = __webpack_require__(362);
 
       var _specific_date_range2 = _interopRequireDefault(_specific_date_range);
 
-      var _locale = __webpack_require__(362);
+      var _locale = __webpack_require__(363);
 
       var _locale2 = _interopRequireDefault(_locale);
 
-      var _exclude_dates = __webpack_require__(363);
+      var _exclude_dates = __webpack_require__(364);
 
       var _exclude_dates2 = _interopRequireDefault(_exclude_dates);
 
-      var _highlight_dates = __webpack_require__(364);
+      var _highlight_dates = __webpack_require__(365);
 
       var _highlight_dates2 = _interopRequireDefault(_highlight_dates);
 
-      var _highlight_dates_with_ranges = __webpack_require__(365);
+      var _highlight_dates_with_ranges = __webpack_require__(366);
 
       var _highlight_dates_with_ranges2 = _interopRequireDefault(
         _highlight_dates_with_ranges
       );
 
-      var _include_dates = __webpack_require__(366);
+      var _include_dates = __webpack_require__(367);
 
       var _include_dates2 = _interopRequireDefault(_include_dates);
 
-      var _filter_dates = __webpack_require__(367);
+      var _filter_dates = __webpack_require__(368);
 
       var _filter_dates2 = _interopRequireDefault(_filter_dates);
 
-      var _disabled = __webpack_require__(368);
+      var _disabled = __webpack_require__(369);
 
       var _disabled2 = _interopRequireDefault(_disabled);
 
-      var _disabled_keyboard_navigation = __webpack_require__(369);
+      var _disabled_keyboard_navigation = __webpack_require__(370);
 
       var _disabled_keyboard_navigation2 = _interopRequireDefault(
         _disabled_keyboard_navigation
       );
 
-      var _clear_input = __webpack_require__(370);
+      var _clear_input = __webpack_require__(371);
 
       var _clear_input2 = _interopRequireDefault(_clear_input);
 
-      var _on_blur_callbacks = __webpack_require__(371);
+      var _on_blur_callbacks = __webpack_require__(372);
 
       var _on_blur_callbacks2 = _interopRequireDefault(_on_blur_callbacks);
 
-      var _configurePopper = __webpack_require__(372);
+      var _configurePopper = __webpack_require__(373);
 
       var _configurePopper2 = _interopRequireDefault(_configurePopper);
 
-      var _date_range = __webpack_require__(373);
+      var _date_range = __webpack_require__(374);
 
       var _date_range2 = _interopRequireDefault(_date_range);
 
-      var _date_range_with_show_disabled_navigation = __webpack_require__(374);
+      var _date_range_with_show_disabled_navigation = __webpack_require__(375);
 
       var _date_range_with_show_disabled_navigation2 = _interopRequireDefault(
         _date_range_with_show_disabled_navigation
       );
 
-      var _tab_index = __webpack_require__(375);
+      var _tab_index = __webpack_require__(376);
 
       var _tab_index2 = _interopRequireDefault(_tab_index);
 
-      var _year_dropdown = __webpack_require__(376);
+      var _year_dropdown = __webpack_require__(377);
 
       var _year_dropdown2 = _interopRequireDefault(_year_dropdown);
 
-      var _month_dropdown = __webpack_require__(377);
+      var _month_dropdown = __webpack_require__(378);
 
       var _month_dropdown2 = _interopRequireDefault(_month_dropdown);
 
-      var _month_year_dropdown = __webpack_require__(378);
+      var _month_year_dropdown = __webpack_require__(379);
 
       var _month_year_dropdown2 = _interopRequireDefault(_month_year_dropdown);
 
-      var _month_dropdown_short = __webpack_require__(379);
+      var _month_dropdown_short = __webpack_require__(380);
 
       var _month_dropdown_short2 = _interopRequireDefault(
         _month_dropdown_short
       );
 
-      var _year_select_dropdown = __webpack_require__(380);
+      var _year_select_dropdown = __webpack_require__(381);
 
       var _year_select_dropdown2 = _interopRequireDefault(
         _year_select_dropdown
       );
 
-      var _today = __webpack_require__(381);
+      var _today = __webpack_require__(382);
 
       var _today2 = _interopRequireDefault(_today);
 
-      var _timezone_date = __webpack_require__(382);
+      var _timezone_date = __webpack_require__(383);
 
       var _timezone_date2 = _interopRequireDefault(_timezone_date);
 
-      var _inline = __webpack_require__(383);
+      var _inline = __webpack_require__(384);
 
       var _inline2 = _interopRequireDefault(_inline);
 
-      var _open_to_date = __webpack_require__(384);
+      var _open_to_date = __webpack_require__(385);
 
       var _open_to_date2 = _interopRequireDefault(_open_to_date);
 
-      var _fixed_calendar = __webpack_require__(385);
+      var _fixed_calendar = __webpack_require__(386);
 
       var _fixed_calendar2 = _interopRequireDefault(_fixed_calendar);
 
-      var _week_numbers = __webpack_require__(386);
+      var _week_numbers = __webpack_require__(387);
 
       var _week_numbers2 = _interopRequireDefault(_week_numbers);
 
-      var _custom_input = __webpack_require__(387);
+      var _custom_input = __webpack_require__(388);
 
       var _custom_input2 = _interopRequireDefault(_custom_input);
 
-      var _multi_month = __webpack_require__(388);
+      var _multi_month = __webpack_require__(389);
 
       var _multi_month2 = _interopRequireDefault(_multi_month);
 
-      var _multi_month_drp = __webpack_require__(389);
+      var _multi_month_drp = __webpack_require__(390);
 
       var _multi_month_drp2 = _interopRequireDefault(_multi_month_drp);
 
-      var _children = __webpack_require__(390);
+      var _children = __webpack_require__(391);
 
       var _children2 = _interopRequireDefault(_children);
 
-      var _portal = __webpack_require__(391);
+      var _portal = __webpack_require__(392);
 
       var _portal2 = _interopRequireDefault(_portal);
 
-      var _inline_portal = __webpack_require__(392);
+      var _inline_portal = __webpack_require__(393);
 
       var _inline_portal2 = _interopRequireDefault(_inline_portal);
 
-      var _raw_change = __webpack_require__(393);
+      var _raw_change = __webpack_require__(394);
 
       var _raw_change2 = _interopRequireDefault(_raw_change);
 
-      var _show_time = __webpack_require__(394);
+      var _show_time = __webpack_require__(395);
 
       var _show_time2 = _interopRequireDefault(_show_time);
 
-      var _exclude_times = __webpack_require__(395);
+      var _exclude_times = __webpack_require__(396);
 
       var _exclude_times2 = _interopRequireDefault(_exclude_times);
 
-      var _exclude_time_period = __webpack_require__(396);
+      var _exclude_time_period = __webpack_require__(397);
 
       var _exclude_time_period2 = _interopRequireDefault(_exclude_time_period);
 
-      var _dont_close_onSelect = __webpack_require__(397);
+      var _dont_close_onSelect = __webpack_require__(398);
 
       var _dont_close_onSelect2 = _interopRequireDefault(_dont_close_onSelect);
 
-      var _open_by_default = __webpack_require__(398);
+      var _open_by_default = __webpack_require__(399);
 
       var _open_by_default2 = _interopRequireDefault(_open_by_default);
 
-      __webpack_require__(399);
-
       __webpack_require__(400);
+
+      __webpack_require__(401);
 
       function _interopRequireDefault(obj) {
         return obj && obj.__esModule ? obj : { default: obj };
@@ -28672,8 +28672,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var exampleComponents = (function(_React$Component) {
-        _inherits(exampleComponents, _React$Component);
+      var exampleComponents = (function(_React$PureComponent) {
+        _inherits(exampleComponents, _React$PureComponent);
 
         function exampleComponents() {
           var _temp, _this, _ret;
@@ -28691,7 +28691,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.examples = [
@@ -29045,7 +29048,7 @@
         };
 
         return exampleComponents;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = exampleComponents;
 
@@ -47702,15 +47705,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Default = (function(_React$Component) {
-        _inherits(Default, _React$Component);
+      var Default = (function(_React$PureComponent) {
+        _inherits(Default, _React$PureComponent);
 
         function Default(props) {
           _classCallCheck(this, Default);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -47750,7 +47753,7 @@
         };
 
         return Default;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = Default;
 
@@ -47791,7 +47794,7 @@
 
       var _propTypes2 = _interopRequireDefault(_propTypes);
 
-      var _popper_component = __webpack_require__(348);
+      var _popper_component = __webpack_require__(349);
 
       var _popper_component2 = _interopRequireDefault(_popper_component);
 
@@ -47856,8 +47859,8 @@
        * General datepicker component.
        */
 
-      var DatePicker = (function(_React$Component) {
-        _inherits(DatePicker, _React$Component);
+      var DatePicker = (function(_React$PureComponent) {
+        _inherits(DatePicker, _React$PureComponent);
 
         _createClass(DatePicker, null, [
           {
@@ -47897,7 +47900,7 @@
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.getPreSelection = function() {
@@ -48423,7 +48426,7 @@
         };
 
         return DatePicker;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       DatePicker.propTypes = {
         adjustDateOnChange: _propTypes2.default.bool,
@@ -48557,7 +48560,11 @@
 
       var _month2 = _interopRequireDefault(_month);
 
-      var _time = __webpack_require__(347);
+      var _months_list = __webpack_require__(347);
+
+      var _months_list2 = _interopRequireDefault(_months_list);
+
+      var _time = __webpack_require__(348);
 
       var _time2 = _interopRequireDefault(_time);
 
@@ -48635,8 +48642,8 @@
         });
       };
 
-      var Calendar = (function(_React$Component) {
-        _inherits(Calendar, _React$Component);
+      var Calendar = (function(_React$PureComponent) {
+        _inherits(Calendar, _React$PureComponent);
 
         _createClass(Calendar, null, [
           {
@@ -48656,7 +48663,7 @@
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleClickOutside = function(event) {
@@ -48809,44 +48816,6 @@
             );
           };
 
-          _this.header = function() {
-            var date =
-              arguments.length > 0 && arguments[0] !== undefined
-                ? arguments[0]
-                : _this.state.date;
-
-            var startOfWeek = (0, _date_utils.getStartOfWeek)(
-              (0, _date_utils.cloneDate)(date)
-            );
-            var dayNames = [];
-            if (_this.props.showWeekNumbers) {
-              dayNames.push(
-                _react2.default.createElement(
-                  "div",
-                  { key: "W", className: "react-datepicker__day-name" },
-                  _this.props.weekLabel || "#"
-                )
-              );
-            }
-            return dayNames.concat(
-              [0, 1, 2, 3, 4, 5, 6].map(function(offset) {
-                var day = (0, _date_utils.addDays)(
-                  (0, _date_utils.cloneDate)(startOfWeek),
-                  offset
-                );
-                var localeData = (0, _date_utils.getLocaleData)(day);
-                var weekDayName = _this.props.useWeekdaysShort
-                  ? (0, _date_utils.getWeekdayShortInLocale)(localeData, day)
-                  : (0, _date_utils.getWeekdayMinInLocale)(localeData, day);
-                return _react2.default.createElement(
-                  "div",
-                  { key: offset, className: "react-datepicker__day-name" },
-                  weekDayName
-                );
-              })
-            );
-          };
-
           _this.renderPreviousMonthButton = function() {
             var allPrevDaysDisabled = (0, _date_utils.allDaysDisabledBefore)(
               _this.state.date,
@@ -48927,100 +48896,6 @@
             });
           };
 
-          _this.renderCurrentMonth = function() {
-            var date =
-              arguments.length > 0 && arguments[0] !== undefined
-                ? arguments[0]
-                : _this.state.date;
-
-            var classes = ["react-datepicker__current-month"];
-
-            if (_this.props.showYearDropdown) {
-              classes.push("react-datepicker__current-month--hasYearDropdown");
-            }
-            if (_this.props.showMonthDropdown) {
-              classes.push("react-datepicker__current-month--hasMonthDropdown");
-            }
-            if (_this.props.showMonthYearDropdown) {
-              classes.push(
-                "react-datepicker__current-month--hasMonthYearDropdown"
-              );
-            }
-            return _react2.default.createElement(
-              "div",
-              { className: classes.join(" ") },
-              (0, _date_utils.formatDate)(date, _this.props.dateFormat)
-            );
-          };
-
-          _this.renderYearDropdown = function() {
-            var overrideHide =
-              arguments.length > 0 && arguments[0] !== undefined
-                ? arguments[0]
-                : false;
-
-            if (!_this.props.showYearDropdown || overrideHide) {
-              return;
-            }
-            return _react2.default.createElement(_year_dropdown2.default, {
-              adjustDateOnChange: _this.props.adjustDateOnChange,
-              date: _this.state.date,
-              onSelect: _this.props.onSelect,
-              setOpen: _this.props.setOpen,
-              dropdownMode: _this.props.dropdownMode,
-              onChange: _this.changeYear,
-              minDate: _this.props.minDate,
-              maxDate: _this.props.maxDate,
-              year: (0, _date_utils.getYear)(_this.state.date),
-              scrollableYearDropdown: _this.props.scrollableYearDropdown,
-              yearDropdownItemNumber: _this.props.yearDropdownItemNumber
-            });
-          };
-
-          _this.renderMonthDropdown = function() {
-            var overrideHide =
-              arguments.length > 0 && arguments[0] !== undefined
-                ? arguments[0]
-                : false;
-
-            if (!_this.props.showMonthDropdown) {
-              return;
-            }
-            return _react2.default.createElement(_month_dropdown2.default, {
-              dropdownMode: _this.props.dropdownMode,
-              locale: _this.props.locale,
-              dateFormat: _this.props.dateFormat,
-              onChange: _this.changeMonth,
-              month: (0, _date_utils.getMonth)(_this.state.date),
-              useShortMonthInDropdown: _this.props.useShortMonthInDropdown
-            });
-          };
-
-          _this.renderMonthYearDropdown = function() {
-            var overrideHide =
-              arguments.length > 0 && arguments[0] !== undefined
-                ? arguments[0]
-                : false;
-
-            if (!_this.props.showMonthYearDropdown) {
-              return;
-            }
-            return _react2.default.createElement(
-              _month_year_dropdown2.default,
-              {
-                dropdownMode: _this.props.dropdownMode,
-                locale: _this.props.locale,
-                dateFormat: _this.props.dateFormat,
-                onChange: _this.changeMonthYear,
-                minDate: _this.props.minDate,
-                maxDate: _this.props.maxDate,
-                date: _this.state.date,
-                scrollableMonthYearDropdown:
-                  _this.props.scrollableMonthYearDropdown
-              }
-            );
-          };
-
           _this.renderTodayButton = function() {
             if (!_this.props.todayButton) {
               return;
@@ -49040,79 +48915,6 @@
               },
               _this.props.todayButton
             );
-          };
-
-          _this.renderMonths = function() {
-            var monthList = [];
-            for (var i = 0; i < _this.props.monthsShown; ++i) {
-              var monthDate = (0, _date_utils.addMonths)(
-                (0, _date_utils.cloneDate)(_this.state.date),
-                i
-              );
-              var monthKey = "month-" + i;
-              monthList.push(
-                _react2.default.createElement(
-                  "div",
-                  {
-                    key: monthKey,
-                    ref: function ref(div) {
-                      _this.monthContainer = div;
-                    },
-                    className: "react-datepicker__month-container"
-                  },
-                  _react2.default.createElement(
-                    "div",
-                    { className: "react-datepicker__header" },
-                    _this.renderCurrentMonth(monthDate),
-                    _react2.default.createElement(
-                      "div",
-                      {
-                        className:
-                          "react-datepicker__header__dropdown react-datepicker__header__dropdown--" +
-                          _this.props.dropdownMode,
-                        onFocus: _this.handleDropdownFocus
-                      },
-                      _this.renderMonthDropdown(i !== 0),
-                      _this.renderMonthYearDropdown(i !== 0),
-                      _this.renderYearDropdown(i !== 0)
-                    ),
-                    _react2.default.createElement(
-                      "div",
-                      { className: "react-datepicker__day-names" },
-                      _this.header(monthDate)
-                    )
-                  ),
-                  _react2.default.createElement(_month2.default, {
-                    day: monthDate,
-                    dayClassName: _this.props.dayClassName,
-                    onDayClick: _this.handleDayClick,
-                    onDayMouseEnter: _this.handleDayMouseEnter,
-                    onMouseLeave: _this.handleMonthMouseLeave,
-                    onWeekSelect: _this.props.onWeekSelect,
-                    formatWeekNumber: _this.props.formatWeekNumber,
-                    minDate: _this.props.minDate,
-                    maxDate: _this.props.maxDate,
-                    excludeDates: _this.props.excludeDates,
-                    highlightDates: _this.props.highlightDates,
-                    selectingDate: _this.state.selectingDate,
-                    includeDates: _this.props.includeDates,
-                    inline: _this.props.inline,
-                    fixedHeight: _this.props.fixedHeight,
-                    filterDate: _this.props.filterDate,
-                    preSelection: _this.props.preSelection,
-                    selected: _this.props.selected,
-                    selectsStart: _this.props.selectsStart,
-                    selectsEnd: _this.props.selectsEnd,
-                    showWeekNumbers: _this.props.showWeekNumbers,
-                    startDate: _this.props.startDate,
-                    endDate: _this.props.endDate,
-                    peekNextMonth: _this.props.peekNextMonth,
-                    utcOffset: _this.props.utcOffset
-                  })
-                )
-              );
-            }
-            return monthList;
           };
 
           _this.renderTimeSection = function() {
@@ -49183,6 +48985,63 @@
           }
         };
 
+        Calendar.prototype.renderMonths = function renderMonths() {
+          var _this3 = this;
+
+          return _react2.default.createElement(_months_list2.default, {
+            ref: function ref(el) {
+              if (el) {
+                _this3.monthContainer = el.monthContainer;
+              }
+            },
+            onDropdownFocus: this.handleDropdownFocus,
+            onChangeMonth: this.handleMonthChange,
+            onChangeMonthYear: this.handleMonthYearChange,
+            onChangeYear: this.handleYearChange,
+            date: this.state.date,
+            selectingDate: this.state.selectingDate,
+            onDayClick: this.handleDayClick,
+            onDayMouseEnter: this.handleDayMouseEnter,
+            onMouseLeave: this.handleMonthMouseLeave,
+            adjustDateOnChange: this.props.adjustDateOnChange,
+            dateFormat: this.props.dateFormat,
+            dayClassName: this.props.dayClassName,
+            dropdownMode: this.props.dropdownMode,
+            endDate: this.props.endDate,
+            excludeDates: this.props.excludeDates,
+            filterDate: this.props.filterDate,
+            fixedHeight: this.props.fixedHeight,
+            formatWeekNumber: this.props.formatWeekNumber,
+            highlightDates: this.props.highlightDates,
+            includeDates: this.props.includeDates,
+            inline: this.props.inline,
+            locale: this.props.locale,
+            maxDate: this.props.maxDate,
+            minDate: this.props.minDate,
+            monthsShown: this.props.monthsShown,
+            onSelect: this.props.onSelect,
+            onWeekSelect: this.props.onWeekSelect,
+            peekNextMonth: this.props.peekNextMonth,
+            scrollableYearDropdown: this.props.scrollableYearDropdown,
+            scrollableMonthYearDropdown: this.props.scrollableMonthYearDropdown,
+            preSelection: this.props.preSelection,
+            selected: this.props.selected,
+            selectsEnd: this.props.selectsEnd,
+            selectsStart: this.props.selectsStart,
+            showMonthDropdown: this.props.showMonthDropdown,
+            showMonthYearDropdown: this.props.showMonthYearDropdown,
+            showWeekNumbers: this.props.showWeekNumbers,
+            showYearDropdown: this.props.showYearDropdown,
+            startDate: this.props.startDate,
+            useWeekdaysShort: this.props.useWeekdaysShort,
+            utcOffset: this.props.utcOffset,
+            weekLabel: this.props.weekLabel,
+            yearDropdownItemNumber: this.props.yearDropdownItemNumber,
+            setOpen: this.props.setOpen,
+            useShortMonthInDropdown: this.props.useShortMonthInDropdown
+          });
+        };
+
         Calendar.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
@@ -49205,7 +49064,7 @@
         };
 
         return Calendar;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       Calendar.propTypes = {
         adjustDateOnChange: _propTypes2.default.bool,
@@ -49343,8 +49202,8 @@
         _year_dropdown_options2.default
       );
 
-      var YearDropdown = (function(_React$Component) {
-        _inherits(YearDropdown, _React$Component);
+      var YearDropdown = (function(_React$PureComponent) {
+        _inherits(YearDropdown, _React$PureComponent);
 
         function YearDropdown() {
           var _temp, _this, _ret;
@@ -49362,7 +49221,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -49506,7 +49368,7 @@
         };
 
         return YearDropdown;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       YearDropdown.propTypes = {
         adjustDateOnChange: _propTypes2.default.bool,
@@ -50531,15 +50393,15 @@
         return list;
       }
 
-      var YearDropdownOptions = (function(_React$Component) {
-        _inherits(YearDropdownOptions, _React$Component);
+      var YearDropdownOptions = (function(_React$PureComponent) {
+        _inherits(YearDropdownOptions, _React$PureComponent);
 
         function YearDropdownOptions(props) {
           _classCallCheck(this, YearDropdownOptions);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.renderOptions = function() {
@@ -50681,7 +50543,7 @@
         };
 
         return YearDropdownOptions;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       YearDropdownOptions.propTypes = {
         minDate: _propTypes2.default.object,
@@ -69825,8 +69687,8 @@
         _month_dropdown_options2.default
       );
 
-      var MonthDropdown = (function(_React$Component) {
-        _inherits(MonthDropdown, _React$Component);
+      var MonthDropdown = (function(_React$PureComponent) {
+        _inherits(MonthDropdown, _React$PureComponent);
 
         function MonthDropdown() {
           var _temp, _this, _ret;
@@ -69844,7 +69706,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -69975,7 +69840,7 @@
         };
 
         return MonthDropdown;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       MonthDropdown.propTypes = {
         dropdownMode: _propTypes2.default.oneOf(["scroll", "select"])
@@ -70046,8 +69911,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var MonthDropdownOptions = (function(_React$Component) {
-        _inherits(MonthDropdownOptions, _React$Component);
+      var MonthDropdownOptions = (function(_React$PureComponent) {
+        _inherits(MonthDropdownOptions, _React$PureComponent);
 
         function MonthDropdownOptions() {
           var _temp, _this, _ret;
@@ -70065,7 +69930,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.renderOptions = function() {
@@ -70114,7 +69982,7 @@
         };
 
         return MonthDropdownOptions;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       MonthDropdownOptions.propTypes = {
         onCancel: _propTypes2.default.func.isRequired,
@@ -70200,8 +70068,8 @@
         _month_year_dropdown_options2.default
       );
 
-      var MonthYearDropdown = (function(_React$Component) {
-        _inherits(MonthYearDropdown, _React$Component);
+      var MonthYearDropdown = (function(_React$PureComponent) {
+        _inherits(MonthYearDropdown, _React$PureComponent);
 
         function MonthYearDropdown() {
           var _temp, _this, _ret;
@@ -70219,7 +70087,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -70389,7 +70260,7 @@
         };
 
         return MonthYearDropdown;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       MonthYearDropdown.propTypes = {
         dropdownMode: _propTypes2.default.oneOf(["scroll", "select"])
@@ -70487,15 +70358,15 @@
         return list;
       }
 
-      var MonthYearDropdownOptions = (function(_React$Component) {
-        _inherits(MonthYearDropdownOptions, _React$Component);
+      var MonthYearDropdownOptions = (function(_React$PureComponent) {
+        _inherits(MonthYearDropdownOptions, _React$PureComponent);
 
         function MonthYearDropdownOptions(props) {
           _classCallCheck(this, MonthYearDropdownOptions);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.renderOptions = function() {
@@ -70563,7 +70434,7 @@
         };
 
         return MonthYearDropdownOptions;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       MonthYearDropdownOptions.propTypes = {
         minDate: _propTypes2.default.object.isRequired,
@@ -70664,8 +70535,8 @@
 
       var FIXED_HEIGHT_STANDARD_WEEK_COUNT = 6;
 
-      var Month = (function(_React$Component) {
-        _inherits(Month, _React$Component);
+      var Month = (function(_React$PureComponent) {
+        _inherits(Month, _React$PureComponent);
 
         function Month() {
           var _temp, _this, _ret;
@@ -70683,7 +70554,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.handleDayClick = function(day, event) {
@@ -70803,7 +70677,7 @@
         };
 
         return Month;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       Month.propTypes = {
         day: _propTypes2.default.object.isRequired,
@@ -70920,8 +70794,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Week = (function(_React$Component) {
-        _inherits(Week, _React$Component);
+      var Week = (function(_React$PureComponent) {
+        _inherits(Week, _React$PureComponent);
 
         function Week() {
           var _temp, _this, _ret;
@@ -70939,7 +70813,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.handleDayClick = function(day, event) {
@@ -71024,7 +70901,7 @@
         };
 
         return Week;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       Week.propTypes = {
         day: _propTypes2.default.object.isRequired,
@@ -71117,8 +70994,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Day = (function(_React$Component) {
-        _inherits(Day, _React$Component);
+      var Day = (function(_React$PureComponent) {
+        _inherits(Day, _React$PureComponent);
 
         function Day() {
           var _temp, _this, _ret;
@@ -71136,7 +71013,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.handleClick = function(event) {
@@ -71348,7 +71228,7 @@
         };
 
         return Day;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       Day.propTypes = {
         day: _propTypes2.default.object.isRequired,
@@ -71431,8 +71311,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var WeekNumber = (function(_React$Component) {
-        _inherits(WeekNumber, _React$Component);
+      var WeekNumber = (function(_React$PureComponent) {
+        _inherits(WeekNumber, _React$PureComponent);
 
         function WeekNumber() {
           var _temp, _this, _ret;
@@ -71450,7 +71330,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.handleClick = function(event) {
@@ -71480,7 +71363,7 @@
         };
 
         return WeekNumber;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       WeekNumber.propTypes = {
         weekNumber: _propTypes2.default.number.isRequired,
@@ -71491,6 +71374,382 @@
       /***/
     },
     /* 347 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _MonthsList$propTypes;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _propTypes = __webpack_require__(211);
+
+      var _propTypes2 = _interopRequireDefault(_propTypes);
+
+      var _month = __webpack_require__(343);
+
+      var _month2 = _interopRequireDefault(_month);
+
+      var _month_dropdown = __webpack_require__(339);
+
+      var _month_dropdown2 = _interopRequireDefault(_month_dropdown);
+
+      var _month_year_dropdown = __webpack_require__(341);
+
+      var _month_year_dropdown2 = _interopRequireDefault(_month_year_dropdown);
+
+      var _year_dropdown = __webpack_require__(210);
+
+      var _year_dropdown2 = _interopRequireDefault(_year_dropdown);
+
+      var _date_utils = __webpack_require__(217);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var MonthsList = (function(_React$PureComponent) {
+        _inherits(MonthsList, _React$PureComponent);
+
+        function MonthsList() {
+          var _temp, _this, _ret;
+
+          _classCallCheck(this, MonthsList);
+
+          for (
+            var _len = arguments.length, args = Array(_len), _key = 0;
+            _key < _len;
+            _key++
+          ) {
+            args[_key] = arguments[_key];
+          }
+
+          return (
+            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
+              this,
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
+            )),
+            _this)),
+            (_this.renderCurrentMonth = function() {
+              var date =
+                arguments.length > 0 && arguments[0] !== undefined
+                  ? arguments[0]
+                  : _this.props.date;
+
+              var classes = ["react-datepicker__current-month"];
+
+              if (_this.props.showYearDropdown) {
+                classes.push(
+                  "react-datepicker__current-month--hasYearDropdown"
+                );
+              }
+              if (_this.props.showMonthDropdown) {
+                classes.push(
+                  "react-datepicker__current-month--hasMonthDropdown"
+                );
+              }
+              if (_this.props.showMonthYearDropdown) {
+                classes.push(
+                  "react-datepicker__current-month--hasMonthYearDropdown"
+                );
+              }
+              return _react2.default.createElement(
+                "div",
+                { className: classes.join(" ") },
+                (0, _date_utils.formatDate)(date, _this.props.dateFormat)
+              );
+            }),
+            (_this.renderMonthDropdown = function() {
+              var overrideHide =
+                arguments.length > 0 && arguments[0] !== undefined
+                  ? arguments[0]
+                  : false;
+
+              if (!_this.props.showMonthDropdown) {
+                return;
+              }
+              return _react2.default.createElement(_month_dropdown2.default, {
+                dropdownMode: _this.props.dropdownMode,
+                locale: _this.props.locale,
+                dateFormat: _this.props.dateFormat,
+                onChange: _this.props.onChangeMonth,
+                month: (0, _date_utils.getMonth)(_this.props.date),
+                useShortMonthInDropdown: _this.props.useShortMonthInDropdown
+              });
+            }),
+            (_this.renderMonthYearDropdown = function() {
+              var overrideHide =
+                arguments.length > 0 && arguments[0] !== undefined
+                  ? arguments[0]
+                  : false;
+
+              if (!_this.props.showMonthYearDropdown) {
+                return;
+              }
+              return _react2.default.createElement(
+                _month_year_dropdown2.default,
+                {
+                  dropdownMode: _this.props.dropdownMode,
+                  locale: _this.props.locale,
+                  dateFormat: _this.props.dateFormat,
+                  onChange: _this.props.onChangeMonthYear,
+                  minDate: _this.props.minDate,
+                  maxDate: _this.props.maxDate,
+                  date: _this.props.date,
+                  scrollableMonthYearDropdown:
+                    _this.props.scrollableMonthYearDropdown
+                }
+              );
+            }),
+            (_this.header = function() {
+              var date =
+                arguments.length > 0 && arguments[0] !== undefined
+                  ? arguments[0]
+                  : _this.props.date;
+
+              var startOfWeek = (0, _date_utils.getStartOfWeek)(
+                (0, _date_utils.cloneDate)(date)
+              );
+              var dayNames = [];
+              if (_this.props.showWeekNumbers) {
+                dayNames.push(
+                  _react2.default.createElement(
+                    "div",
+                    { key: "W", className: "react-datepicker__day-name" },
+                    _this.props.weekLabel || "#"
+                  )
+                );
+              }
+              return dayNames.concat(
+                [0, 1, 2, 3, 4, 5, 6].map(function(offset) {
+                  var day = (0, _date_utils.addDays)(
+                    (0, _date_utils.cloneDate)(startOfWeek),
+                    offset
+                  );
+                  var localeData = (0, _date_utils.getLocaleData)(day);
+                  var weekDayName = _this.props.useWeekdaysShort
+                    ? (0, _date_utils.getWeekdayShortInLocale)(localeData, day)
+                    : (0, _date_utils.getWeekdayMinInLocale)(localeData, day);
+                  return _react2.default.createElement(
+                    "div",
+                    { key: offset, className: "react-datepicker__day-name" },
+                    weekDayName
+                  );
+                })
+              );
+            }),
+            (_this.renderYearDropdown = function() {
+              var overrideHide =
+                arguments.length > 0 && arguments[0] !== undefined
+                  ? arguments[0]
+                  : false;
+
+              if (!_this.props.showYearDropdown || overrideHide) {
+                return;
+              }
+              return _react2.default.createElement(_year_dropdown2.default, {
+                adjustDateOnChange: _this.props.adjustDateOnChange,
+                date: _this.props.date,
+                onSelect: _this.props.onSelect,
+                setOpen: _this.props.setOpen,
+                dropdownMode: _this.props.dropdownMode,
+                onChange: _this.props.onChangeYear,
+                minDate: _this.props.minDate,
+                maxDate: _this.props.maxDate,
+                year: (0, _date_utils.getYear)(_this.props.date),
+                scrollableYearDropdown: _this.props.scrollableYearDropdown,
+                yearDropdownItemNumber: _this.props.yearDropdownItemNumber
+              });
+            }),
+            _temp)),
+            _possibleConstructorReturn(_this, _ret)
+          );
+        }
+
+        MonthsList.prototype.render = function render() {
+          var _this2 = this;
+
+          var monthList = [];
+          for (var i = 0; i < this.props.monthsShown; ++i) {
+            var monthDate = (0, _date_utils.addMonths)(
+              (0, _date_utils.cloneDate)(this.props.date),
+              i
+            );
+            var monthKey = "month-" + i;
+            monthList.push(
+              _react2.default.createElement(
+                "div",
+                {
+                  key: monthKey,
+                  ref: function ref(div) {
+                    _this2.monthContainer = div;
+                  },
+                  className: "react-datepicker__month-container"
+                },
+                _react2.default.createElement(
+                  "div",
+                  { className: "react-datepicker__header" },
+                  this.renderCurrentMonth(monthDate),
+                  _react2.default.createElement(
+                    "div",
+                    {
+                      className:
+                        "react-datepicker__header__dropdown react-datepicker__header__dropdown--" +
+                        this.props.dropdownMode,
+                      onFocus: this.props.onDropdownFocus
+                    },
+                    this.renderMonthDropdown(i !== 0),
+                    this.renderMonthYearDropdown(i !== 0),
+                    this.renderYearDropdown(i !== 0)
+                  ),
+                  _react2.default.createElement(
+                    "div",
+                    { className: "react-datepicker__day-names" },
+                    this.header(monthDate)
+                  )
+                ),
+                _react2.default.createElement(_month2.default, {
+                  day: monthDate,
+                  dayClassName: this.props.dayClassName,
+                  onDayClick: this.props.onDayClick,
+                  onDayMouseEnter: this.props.onDayMouseEnter,
+                  onMouseLeave: this.props.onMouseLeave,
+                  onWeekSelect: this.props.onWeekSelect,
+                  formatWeekNumber: this.props.formatWeekNumber,
+                  minDate: this.props.minDate,
+                  maxDate: this.props.maxDate,
+                  excludeDates: this.props.excludeDates,
+                  highlightDates: this.props.highlightDates,
+                  selectingDate: this.props.selectingDate,
+                  includeDates: this.props.includeDates,
+                  inline: this.props.inline,
+                  fixedHeight: this.props.fixedHeight,
+                  filterDate: this.props.filterDate,
+                  preSelection: this.props.preSelection,
+                  selected: this.props.selected,
+                  selectsStart: this.props.selectsStart,
+                  selectsEnd: this.props.selectsEnd,
+                  showWeekNumbers: this.props.showWeekNumbers,
+                  startDate: this.props.startDate,
+                  endDate: this.props.endDate,
+                  peekNextMonth: this.props.peekNextMonth,
+                  utcOffset: this.props.utcOffset
+                })
+              )
+            );
+          }
+          return monthList;
+        };
+
+        return MonthsList;
+      })(_react2.default.PureComponent);
+
+      MonthsList.propTypes = ((_MonthsList$propTypes = {
+        adjustDateOnChange: _propTypes2.default.bool,
+        dateFormat: _propTypes2.default.oneOfType([
+          _propTypes2.default.string,
+          _propTypes2.default.array
+        ]).isRequired,
+        dayClassName: _propTypes2.default.func,
+        dropdownMode: _propTypes2.default.oneOf(["scroll", "select"])
+          .isRequired,
+        endDate: _propTypes2.default.object,
+        excludeDates: _propTypes2.default.array,
+        filterDate: _propTypes2.default.func,
+        fixedHeight: _propTypes2.default.bool,
+        formatWeekNumber: _propTypes2.default.func,
+        highlightDates: _propTypes2.default.instanceOf(Map),
+        includeDates: _propTypes2.default.array,
+        inline: _propTypes2.default.bool,
+        locale: _propTypes2.default.string,
+        maxDate: _propTypes2.default.object,
+        minDate: _propTypes2.default.object,
+        monthsShown: _propTypes2.default.number,
+        onDropdownFocus: _propTypes2.default.func,
+        onSelect: _propTypes2.default.func.isRequired,
+        onWeekSelect: _propTypes2.default.func,
+        peekNextMonth: _propTypes2.default.bool,
+        scrollableYearDropdown: _propTypes2.default.bool,
+        scrollableMonthYearDropdown: _propTypes2.default.bool,
+        preSelection: _propTypes2.default.object,
+        selected: _propTypes2.default.object,
+        selectsEnd: _propTypes2.default.bool,
+        selectsStart: _propTypes2.default.bool,
+        showMonthDropdown: _propTypes2.default.bool,
+        showMonthYearDropdown: _propTypes2.default.bool,
+        showWeekNumbers: _propTypes2.default.bool,
+        showYearDropdown: _propTypes2.default.bool,
+        startDate: _propTypes2.default.object,
+        useWeekdaysShort: _propTypes2.default.bool,
+        utcOffset: _propTypes2.default.number,
+        weekLabel: _propTypes2.default.string,
+        yearDropdownItemNumber: _propTypes2.default.number,
+        setOpen: _propTypes2.default.func,
+        useShortMonthInDropdown: _propTypes2.default.bool,
+
+        onChangeMonth: _propTypes2.default.func.isRequired,
+        onChangeMonthYear: _propTypes2.default.func.isRequired,
+        onChangeYear: _propTypes2.default.func.isRequired
+      }),
+      (_MonthsList$propTypes["onDropdownFocus"] =
+        _propTypes2.default.func.isRequired),
+      (_MonthsList$propTypes.onDayClick = _propTypes2.default.func.isRequired),
+      (_MonthsList$propTypes.onDayMouseEnter =
+        _propTypes2.default.func.isRequired),
+      (_MonthsList$propTypes.onMouseLeave =
+        _propTypes2.default.func.isRequired),
+      (_MonthsList$propTypes.selectingDate = _propTypes2.default.object),
+      (_MonthsList$propTypes.date = _propTypes2.default.object.isRequired),
+      _MonthsList$propTypes);
+      exports.default = MonthsList;
+
+      /***/
+    },
+    /* 348 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -71565,8 +71824,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Time = (function(_React$Component) {
-        _inherits(Time, _React$Component);
+      var Time = (function(_React$PureComponent) {
+        _inherits(Time, _React$PureComponent);
 
         function Time() {
           var _temp, _this, _ret;
@@ -71584,7 +71843,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.handleClick = function(time) {
@@ -71738,7 +72000,7 @@
         ]);
 
         return Time;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       Time.propTypes = {
         format: _propTypes2.default.string,
@@ -71755,7 +72017,7 @@
 
       /***/
     },
-    /* 348 */
+    /* 349 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -71791,7 +72053,7 @@
 
       var _propTypes2 = _interopRequireDefault(_propTypes);
 
-      var _reactPopper = __webpack_require__(349);
+      var _reactPopper = __webpack_require__(350);
 
       function _interopRequireDefault(obj) {
         return obj && obj.__esModule ? obj : { default: obj };
@@ -71853,15 +72115,15 @@
         "top-start"
       ]);
 
-      var PopperComponent = (function(_React$Component) {
-        _inherits(PopperComponent, _React$Component);
+      var PopperComponent = (function(_React$PureComponent) {
+        _inherits(PopperComponent, _React$PureComponent);
 
         function PopperComponent() {
           _classCallCheck(this, PopperComponent);
 
           return _possibleConstructorReturn(
             this,
-            _React$Component.apply(this, arguments)
+            _React$PureComponent.apply(this, arguments)
           );
         }
 
@@ -71932,7 +72194,7 @@
         ]);
 
         return PopperComponent;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       PopperComponent.propTypes = {
         className: _propTypes2.default.string,
@@ -71947,7 +72209,7 @@
 
       /***/
     },
-    /* 349 */
+    /* 350 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -71956,19 +72218,19 @@
       });
       exports.Arrow = exports.Popper = exports.Target = exports.Manager = undefined;
 
-      var _Manager2 = __webpack_require__(350);
+      var _Manager2 = __webpack_require__(351);
 
       var _Manager3 = _interopRequireDefault(_Manager2);
 
-      var _Target2 = __webpack_require__(351);
+      var _Target2 = __webpack_require__(352);
 
       var _Target3 = _interopRequireDefault(_Target2);
 
-      var _Popper2 = __webpack_require__(352);
+      var _Popper2 = __webpack_require__(353);
 
       var _Popper3 = _interopRequireDefault(_Popper2);
 
-      var _Arrow2 = __webpack_require__(354);
+      var _Arrow2 = __webpack_require__(355);
 
       var _Arrow3 = _interopRequireDefault(_Arrow2);
 
@@ -71983,7 +72245,7 @@
 
       /***/
     },
-    /* 350 */
+    /* 351 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -72158,7 +72420,7 @@
 
       /***/
     },
-    /* 351 */
+    /* 352 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -72258,7 +72520,7 @@
 
       /***/
     },
-    /* 352 */
+    /* 353 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -72305,7 +72567,7 @@
 
       var _propTypes2 = _interopRequireDefault(_propTypes);
 
-      var _popper = __webpack_require__(353);
+      var _popper = __webpack_require__(354);
 
       var _popper2 = _interopRequireDefault(_popper);
 
@@ -72690,7 +72952,7 @@
 
       /***/
     },
-    /* 353 */
+    /* 354 */
     /***/ function(module, exports, __webpack_require__) {
       /* WEBPACK VAR INJECTION */ (function(global) {
         /**!
@@ -75544,7 +75806,7 @@
 
       /***/
     },
-    /* 354 */
+    /* 355 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -75651,7 +75913,7 @@
 
       /***/
     },
-    /* 355 */
+    /* 356 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -75707,15 +75969,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var CodeExampleComponent = (function(_React$Component) {
-        _inherits(CodeExampleComponent, _React$Component);
+      var CodeExampleComponent = (function(_React$PureComponent) {
+        _inherits(CodeExampleComponent, _React$PureComponent);
 
         function CodeExampleComponent() {
           _classCallCheck(this, CodeExampleComponent);
 
           return _possibleConstructorReturn(
             this,
-            _React$Component.apply(this, arguments)
+            _React$PureComponent.apply(this, arguments)
           );
         }
 
@@ -75737,7 +75999,7 @@
         };
 
         return CodeExampleComponent;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       CodeExampleComponent.propTypes = {
         children: _propTypes2.default.element,
@@ -75745,131 +76007,6 @@
         title: _propTypes2.default.string
       };
       exports.default = CodeExampleComponent;
-
-      /***/
-    },
-    /* 356 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var CustomDateFormat = (function(_React$Component) {
-        _inherits(CustomDateFormat, _React$Component);
-
-        function CustomDateFormat(props) {
-          _classCallCheck(this, CustomDateFormat);
-
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
-          );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
-        }
-
-        CustomDateFormat.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "<DatePicker",
-                _react2.default.createElement("br", null),
-                _react2.default.createElement(
-                  "strong",
-                  null,
-                  'dateFormat="YYYY/MM/DD"'
-                ),
-                _react2.default.createElement("br", null),
-                "selected={this.state.startDate}",
-                _react2.default.createElement("br", null),
-                "onChange={this.handleChange} />"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                dateFormat: "YYYY/MM/DD",
-                selected: this.state.startDate,
-                onChange: this.handleChange
-              })
-            )
-          );
-        };
-
-        return CustomDateFormat;
-      })(_react2.default.Component);
-
-      exports.default = CustomDateFormat;
 
       /***/
     },
@@ -75933,15 +76070,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var CustomClassName = (function(_React$Component) {
-        _inherits(CustomClassName, _React$Component);
+      var CustomDateFormat = (function(_React$PureComponent) {
+        _inherits(CustomDateFormat, _React$PureComponent);
 
-        function CustomClassName(props) {
-          _classCallCheck(this, CustomClassName);
+        function CustomDateFormat(props) {
+          _classCallCheck(this, CustomDateFormat);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -75956,7 +76093,7 @@
           return _this;
         }
 
-        CustomClassName.prototype.render = function render() {
+        CustomDateFormat.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -75966,25 +76103,35 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  className="red-border"\n/>\n'
+                "<DatePicker",
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                  "strong",
+                  null,
+                  'dateFormat="YYYY/MM/DD"'
+                ),
+                _react2.default.createElement("br", null),
+                "selected={this.state.startDate}",
+                _react2.default.createElement("br", null),
+                "onChange={this.handleChange} />"
               )
             ),
             _react2.default.createElement(
               "div",
               { className: "column" },
               _react2.default.createElement(_reactDatepicker2.default, {
+                dateFormat: "YYYY/MM/DD",
                 selected: this.state.startDate,
-                onChange: this.handleChange,
-                className: "red-border"
+                onChange: this.handleChange
               })
             )
           );
         };
 
-        return CustomClassName;
-      })(_react2.default.Component);
+        return CustomDateFormat;
+      })(_react2.default.PureComponent);
 
-      exports.default = CustomClassName;
+      exports.default = CustomDateFormat;
 
       /***/
     },
@@ -76048,15 +76195,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var CustomCalendarClassName = (function(_React$Component) {
-        _inherits(CustomCalendarClassName, _React$Component);
+      var CustomClassName = (function(_React$PureComponent) {
+        _inherits(CustomClassName, _React$PureComponent);
 
-        function CustomCalendarClassName(props) {
-          _classCallCheck(this, CustomCalendarClassName);
+        function CustomClassName(props) {
+          _classCallCheck(this, CustomClassName);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -76071,7 +76218,7 @@
           return _this;
         }
 
-        CustomCalendarClassName.prototype.render = function render() {
+        CustomClassName.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -76081,7 +76228,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  calendarClassName="rasta-stripes"\n/>\n'
+                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  className="red-border"\n/>\n'
               )
             ),
             _react2.default.createElement(
@@ -76090,16 +76237,16 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                calendarClassName: "rasta-stripes"
+                className: "red-border"
               })
             )
           );
         };
 
-        return CustomCalendarClassName;
-      })(_react2.default.Component);
+        return CustomClassName;
+      })(_react2.default.PureComponent);
 
-      exports.default = CustomCalendarClassName;
+      exports.default = CustomClassName;
 
       /***/
     },
@@ -76163,15 +76310,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var CustomDayClassNames = (function(_React$Component) {
-        _inherits(CustomDayClassNames, _React$Component);
+      var CustomCalendarClassName = (function(_React$PureComponent) {
+        _inherits(CustomCalendarClassName, _React$PureComponent);
 
-        function CustomDayClassNames(props) {
-          _classCallCheck(this, CustomDayClassNames);
+        function CustomCalendarClassName(props) {
+          _classCallCheck(this, CustomCalendarClassName);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -76186,7 +76333,7 @@
           return _this;
         }
 
-        CustomDayClassNames.prototype.render = function render() {
+        CustomCalendarClassName.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -76196,7 +76343,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  dayClassName={date => date.date() < Math.random() * 31 ? 'random' : undefined} />\n/>\n"
+                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  calendarClassName="rasta-stripes"\n/>\n'
               )
             ),
             _react2.default.createElement(
@@ -76205,68 +76352,20 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                dayClassName: function dayClassName(date) {
-                  return date.date() < Math.random() * 31
-                    ? "random"
-                    : undefined;
-                }
+                calendarClassName: "rasta-stripes"
               })
             )
           );
         };
 
-        return CustomDayClassNames;
-      })(_react2.default.Component);
+        return CustomCalendarClassName;
+      })(_react2.default.PureComponent);
 
-      exports.default = CustomDayClassNames;
+      exports.default = CustomCalendarClassName;
 
       /***/
     },
     /* 360 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-      exports.default = PlaceholderText;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function PlaceholderText() {
-        return _react2.default.createElement(
-          "div",
-          { className: "row" },
-          _react2.default.createElement(
-            "pre",
-            { className: "column example__code" },
-            _react2.default.createElement(
-              "code",
-              { className: "jsx" },
-              '<DatePicker placeholderText="Click to select a date" />'
-            )
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "column" },
-            _react2.default.createElement(_reactDatepicker2.default, {
-              placeholderText: "Click to select a date"
-            })
-          )
-        );
-      }
-
-      /***/
-    },
-    /* 361 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -76326,8 +76425,171 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var SpecificDateRange = (function(_React$Component) {
-        _inherits(SpecificDateRange, _React$Component);
+      var CustomDayClassNames = (function(_React$PureComponent) {
+        _inherits(CustomDayClassNames, _React$PureComponent);
+
+        function CustomDayClassNames(props) {
+          _classCallCheck(this, CustomDayClassNames);
+
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
+          );
+
+          _this.handleChange = function(date) {
+            _this.setState({
+              startDate: date
+            });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)()
+          };
+          return _this;
+        }
+
+        CustomDayClassNames.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  dayClassName={date => date.date() < Math.random() * 31 ? 'random' : undefined} />\n/>\n"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.startDate,
+                onChange: this.handleChange,
+                dayClassName: function dayClassName(date) {
+                  return date.date() < Math.random() * 31
+                    ? "random"
+                    : undefined;
+                }
+              })
+            )
+          );
+        };
+
+        return CustomDayClassNames;
+      })(_react2.default.PureComponent);
+
+      exports.default = CustomDayClassNames;
+
+      /***/
+    },
+    /* 361 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+      exports.default = PlaceholderText;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function PlaceholderText() {
+        return _react2.default.createElement(
+          "div",
+          { className: "row" },
+          _react2.default.createElement(
+            "pre",
+            { className: "column example__code" },
+            _react2.default.createElement(
+              "code",
+              { className: "jsx" },
+              '<DatePicker placeholderText="Click to select a date" />'
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            { className: "column" },
+            _react2.default.createElement(_reactDatepicker2.default, {
+              placeholderText: "Click to select a date"
+            })
+          )
+        );
+      }
+
+      /***/
+    },
+    /* 362 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var SpecificDateRange = (function(_React$PureComponent) {
+        _inherits(SpecificDateRange, _React$PureComponent);
 
         function SpecificDateRange() {
           var _temp, _this, _ret;
@@ -76345,7 +76607,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -76410,13 +76675,13 @@
         };
 
         return SpecificDateRange;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = SpecificDateRange;
 
       /***/
     },
-    /* 362 */
+    /* 363 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -76472,8 +76737,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var CustomStartDate = (function(_React$Component) {
-        _inherits(CustomStartDate, _React$Component);
+      var CustomStartDate = (function(_React$PureComponent) {
+        _inherits(CustomStartDate, _React$PureComponent);
 
         function CustomStartDate() {
           var _temp, _this, _ret;
@@ -76491,7 +76756,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -76546,152 +76814,9 @@
         };
 
         return CustomStartDate;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = CustomStartDate;
-
-      /***/
-    },
-    /* 363 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var ExcludeDates = (function(_React$Component) {
-        _inherits(ExcludeDates, _React$Component);
-
-        function ExcludeDates() {
-          var _temp, _this, _ret;
-
-          _classCallCheck(this, ExcludeDates);
-
-          for (
-            var _len = arguments.length, args = Array(_len), _key = 0;
-            _key < _len;
-            _key++
-          ) {
-            args[_key] = arguments[_key];
-          }
-
-          return (
-            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
-              this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
-            )),
-            _this)),
-            (_this.state = {
-              startDate: null
-            }),
-            (_this.handleChange = function(date) {
-              _this.setState({
-                startDate: date
-              });
-            }),
-            _temp)),
-            _possibleConstructorReturn(_this, _ret)
-          );
-        }
-
-        ExcludeDates.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "<DatePicker",
-                _react2.default.createElement("br", null),
-                "  selected={this.state.startDate}",
-                _react2.default.createElement("br", null),
-                "  onChange={this.handleChange}",
-                _react2.default.createElement("br", null),
-                _react2.default.createElement(
-                  "strong",
-                  null,
-                  '  excludeDates={[moment(), moment().subtract(1, "days")]}'
-                ),
-                _react2.default.createElement("br", null),
-                '  placeholderText="Select a date other than today or yesterday" />'
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.startDate,
-                onChange: this.handleChange,
-                excludeDates: [
-                  (0, _moment2.default)(),
-                  (0, _moment2.default)().subtract(1, "days")
-                ],
-                placeholderText: "Select a date other than today or yesterday"
-              })
-            )
-          );
-        };
-
-        return ExcludeDates;
-      })(_react2.default.Component);
-
-      exports.default = ExcludeDates;
 
       /***/
     },
@@ -76755,13 +76880,13 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var highlightDates = (function(_React$Component) {
-        _inherits(highlightDates, _React$Component);
+      var ExcludeDates = (function(_React$PureComponent) {
+        _inherits(ExcludeDates, _React$PureComponent);
 
-        function highlightDates() {
+        function ExcludeDates() {
           var _temp, _this, _ret;
 
-          _classCallCheck(this, highlightDates);
+          _classCallCheck(this, ExcludeDates);
 
           for (
             var _len = arguments.length, args = Array(_len), _key = 0;
@@ -76774,7 +76899,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -76790,7 +76918,7 @@
           );
         }
 
-        highlightDates.prototype.render = function render() {
+        ExcludeDates.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -76802,17 +76930,17 @@
                 { className: "jsx" },
                 "<DatePicker",
                 _react2.default.createElement("br", null),
-                "selected={this.state.startDate}",
+                "  selected={this.state.startDate}",
                 _react2.default.createElement("br", null),
-                "onChange={this.handleChange}",
+                "  onChange={this.handleChange}",
                 _react2.default.createElement("br", null),
                 _react2.default.createElement(
                   "strong",
                   null,
-                  'highlightDates={[moment().subtract(7, "days"), moment().add(7, "days")]}'
+                  '  excludeDates={[moment(), moment().subtract(1, "days")]}'
                 ),
                 _react2.default.createElement("br", null),
-                'placeholderText="This highlights a week ago and a week from today" />'
+                '  placeholderText="Select a date other than today or yesterday" />'
               )
             ),
             _react2.default.createElement(
@@ -76821,21 +76949,20 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                highlightDates: [
-                  (0, _moment2.default)().subtract(7, "days"),
-                  (0, _moment2.default)().add(7, "days")
+                excludeDates: [
+                  (0, _moment2.default)(),
+                  (0, _moment2.default)().subtract(1, "days")
                 ],
-                placeholderText:
-                  "This highlights a week ago and a week from today"
+                placeholderText: "Select a date other than today or yesterday"
               })
             )
           );
         };
 
-        return highlightDates;
-      })(_react2.default.Component);
+        return ExcludeDates;
+      })(_react2.default.PureComponent);
 
-      exports.default = highlightDates;
+      exports.default = ExcludeDates;
 
       /***/
     },
@@ -76899,15 +77026,162 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var highlightDatesRanges = (function(_React$Component) {
-        _inherits(highlightDatesRanges, _React$Component);
+      var highlightDates = (function(_React$PureComponent) {
+        _inherits(highlightDates, _React$PureComponent);
+
+        function highlightDates() {
+          var _temp, _this, _ret;
+
+          _classCallCheck(this, highlightDates);
+
+          for (
+            var _len = arguments.length, args = Array(_len), _key = 0;
+            _key < _len;
+            _key++
+          ) {
+            args[_key] = arguments[_key];
+          }
+
+          return (
+            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
+              this,
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
+            )),
+            _this)),
+            (_this.state = {
+              startDate: null
+            }),
+            (_this.handleChange = function(date) {
+              _this.setState({
+                startDate: date
+              });
+            }),
+            _temp)),
+            _possibleConstructorReturn(_this, _ret)
+          );
+        }
+
+        highlightDates.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "<DatePicker",
+                _react2.default.createElement("br", null),
+                "selected={this.state.startDate}",
+                _react2.default.createElement("br", null),
+                "onChange={this.handleChange}",
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                  "strong",
+                  null,
+                  'highlightDates={[moment().subtract(7, "days"), moment().add(7, "days")]}'
+                ),
+                _react2.default.createElement("br", null),
+                'placeholderText="This highlights a week ago and a week from today" />'
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.startDate,
+                onChange: this.handleChange,
+                highlightDates: [
+                  (0, _moment2.default)().subtract(7, "days"),
+                  (0, _moment2.default)().add(7, "days")
+                ],
+                placeholderText:
+                  "This highlights a week ago and a week from today"
+              })
+            )
+          );
+        };
+
+        return highlightDates;
+      })(_react2.default.PureComponent);
+
+      exports.default = highlightDates;
+
+      /***/
+    },
+    /* 366 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var highlightDatesRanges = (function(_React$PureComponent) {
+        _inherits(highlightDatesRanges, _React$PureComponent);
 
         function highlightDatesRanges(props) {
           _classCallCheck(this, highlightDatesRanges);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.state = {
@@ -77018,13 +77292,13 @@
         };
 
         return highlightDatesRanges;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = highlightDatesRanges;
 
       /***/
     },
-    /* 366 */
+    /* 367 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -77084,8 +77358,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var includeDates = (function(_React$Component) {
-        _inherits(includeDates, _React$Component);
+      var includeDates = (function(_React$PureComponent) {
+        _inherits(includeDates, _React$PureComponent);
 
         function includeDates() {
           var _temp, _this, _ret;
@@ -77103,7 +77377,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -77161,149 +77438,9 @@
         };
 
         return includeDates;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = includeDates;
-
-      /***/
-    },
-    /* 367 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var FilterDates = (function(_React$Component) {
-        _inherits(FilterDates, _React$Component);
-
-        function FilterDates() {
-          var _temp, _this, _ret;
-
-          _classCallCheck(this, FilterDates);
-
-          for (
-            var _len = arguments.length, args = Array(_len), _key = 0;
-            _key < _len;
-            _key++
-          ) {
-            args[_key] = arguments[_key];
-          }
-
-          return (
-            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
-              this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
-            )),
-            _this)),
-            (_this.state = {
-              date: null
-            }),
-            (_this.handleChange = function(date) {
-              _this.setState({
-                date: date
-              });
-            }),
-            (_this.isWeekday = function(date) {
-              var day = date.day();
-              return day !== 0 && day !== 6;
-            }),
-            _temp)),
-            _possibleConstructorReturn(_this, _ret)
-          );
-        }
-
-        FilterDates.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "<DatePicker",
-                _react2.default.createElement("br", null),
-                "selected={this.state.date}",
-                _react2.default.createElement("br", null),
-                "onChange={this.handleChange}",
-                _react2.default.createElement("br", null),
-                _react2.default.createElement(
-                  "strong",
-                  null,
-                  "filterDate={this.isWeekday}"
-                ),
-                _react2.default.createElement("br", null),
-                'placeholderText="Select a weekday" />'
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.date,
-                onChange: this.handleChange,
-                filterDate: this.isWeekday,
-                placeholderText: "Select a weekday"
-              })
-            )
-          );
-        };
-
-        return FilterDates;
-      })(_react2.default.Component);
-
-      exports.default = FilterDates;
 
       /***/
     },
@@ -77363,15 +77500,158 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Disabled = (function(_React$Component) {
-        _inherits(Disabled, _React$Component);
+      var FilterDates = (function(_React$PureComponent) {
+        _inherits(FilterDates, _React$PureComponent);
+
+        function FilterDates() {
+          var _temp, _this, _ret;
+
+          _classCallCheck(this, FilterDates);
+
+          for (
+            var _len = arguments.length, args = Array(_len), _key = 0;
+            _key < _len;
+            _key++
+          ) {
+            args[_key] = arguments[_key];
+          }
+
+          return (
+            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
+              this,
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
+            )),
+            _this)),
+            (_this.state = {
+              date: null
+            }),
+            (_this.handleChange = function(date) {
+              _this.setState({
+                date: date
+              });
+            }),
+            (_this.isWeekday = function(date) {
+              var day = date.day();
+              return day !== 0 && day !== 6;
+            }),
+            _temp)),
+            _possibleConstructorReturn(_this, _ret)
+          );
+        }
+
+        FilterDates.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "<DatePicker",
+                _react2.default.createElement("br", null),
+                "selected={this.state.date}",
+                _react2.default.createElement("br", null),
+                "onChange={this.handleChange}",
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                  "strong",
+                  null,
+                  "filterDate={this.isWeekday}"
+                ),
+                _react2.default.createElement("br", null),
+                'placeholderText="Select a weekday" />'
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.date,
+                onChange: this.handleChange,
+                filterDate: this.isWeekday,
+                placeholderText: "Select a weekday"
+              })
+            )
+          );
+        };
+
+        return FilterDates;
+      })(_react2.default.PureComponent);
+
+      exports.default = FilterDates;
+
+      /***/
+    },
+    /* 369 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var Disabled = (function(_React$PureComponent) {
+        _inherits(Disabled, _React$PureComponent);
 
         function Disabled(props) {
           _classCallCheck(this, Disabled);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -77426,137 +77706,9 @@
         };
 
         return Disabled;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = Disabled;
-
-      /***/
-    },
-    /* 369 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var DisabledKeyboardNavigation = (function(_React$Component) {
-        _inherits(DisabledKeyboardNavigation, _React$Component);
-
-        function DisabledKeyboardNavigation(props) {
-          _classCallCheck(this, DisabledKeyboardNavigation);
-
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
-          );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
-        }
-
-        DisabledKeyboardNavigation.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "<DatePicker",
-                _react2.default.createElement("br", null),
-                "selected={this.state.startDate}",
-                _react2.default.createElement("br", null),
-                "onChange={this.handleChange}",
-                _react2.default.createElement("br", null),
-                _react2.default.createElement(
-                  "strong",
-                  null,
-                  "disabledKeyboardNavigation"
-                ),
-                _react2.default.createElement("br", null),
-                'placeholderText="This has disabled keyboard navigation" />'
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.startDate,
-                onChange: this.handleChange,
-                disabledKeyboardNavigation: true,
-                placeholderText: "This has disabled keyboard navigation"
-              })
-            )
-          );
-        };
-
-        return DisabledKeyboardNavigation;
-      })(_react2.default.Component);
-
-      exports.default = DisabledKeyboardNavigation;
 
       /***/
     },
@@ -77620,15 +77772,143 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var ClearInput = (function(_React$Component) {
-        _inherits(ClearInput, _React$Component);
+      var DisabledKeyboardNavigation = (function(_React$PureComponent) {
+        _inherits(DisabledKeyboardNavigation, _React$PureComponent);
+
+        function DisabledKeyboardNavigation(props) {
+          _classCallCheck(this, DisabledKeyboardNavigation);
+
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
+          );
+
+          _this.handleChange = function(date) {
+            _this.setState({
+              startDate: date
+            });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)()
+          };
+          return _this;
+        }
+
+        DisabledKeyboardNavigation.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "<DatePicker",
+                _react2.default.createElement("br", null),
+                "selected={this.state.startDate}",
+                _react2.default.createElement("br", null),
+                "onChange={this.handleChange}",
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                  "strong",
+                  null,
+                  "disabledKeyboardNavigation"
+                ),
+                _react2.default.createElement("br", null),
+                'placeholderText="This has disabled keyboard navigation" />'
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.startDate,
+                onChange: this.handleChange,
+                disabledKeyboardNavigation: true,
+                placeholderText: "This has disabled keyboard navigation"
+              })
+            )
+          );
+        };
+
+        return DisabledKeyboardNavigation;
+      })(_react2.default.PureComponent);
+
+      exports.default = DisabledKeyboardNavigation;
+
+      /***/
+    },
+    /* 371 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var ClearInput = (function(_React$PureComponent) {
+        _inherits(ClearInput, _React$PureComponent);
 
         function ClearInput(props) {
           _classCallCheck(this, ClearInput);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -77670,13 +77950,13 @@
         };
 
         return ClearInput;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = ClearInput;
 
       /***/
     },
-    /* 371 */
+    /* 372 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -77732,8 +78012,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Disabled = (function(_React$Component) {
-        _inherits(Disabled, _React$Component);
+      var Disabled = (function(_React$PureComponent) {
+        _inherits(Disabled, _React$PureComponent);
 
         function Disabled() {
           var _temp, _this, _ret;
@@ -77751,7 +78031,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -77822,136 +78105,9 @@
         };
 
         return Disabled;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = Disabled;
-
-      /***/
-    },
-    /* 372 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var ConfigurePopper = (function(_React$Component) {
-        _inherits(ConfigurePopper, _React$Component);
-
-        function ConfigurePopper(props) {
-          _classCallCheck(this, ConfigurePopper);
-
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
-          );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
-        }
-
-        ConfigurePopper.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    popperClassName=\"some-custom-class\"\n    popperPlacement=\"top-end\"\n    popperModifiers={{\n      offset: {\n        enabled: true,\n        offset: '5px, 10px'\n      },\n      preventOverflow: {\n        enabled: true,\n        escapeWithReference: false, // force popper to stay in viewport (even when input is scrolled out of view)\n        boundariesElement: 'viewport'\n      }\n    }}\n/>\n"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.startDate,
-                onChange: this.handleChange,
-                popperClassName: "some-custom-class",
-                popperPlacement: "top-end",
-                popperModifiers: {
-                  offset: {
-                    enabled: true,
-                    offset: "5px, 10px"
-                  },
-                  preventOverflow: {
-                    enabled: true,
-                    escapeWithReference: false,
-                    boundariesElement: "viewport"
-                  }
-                }
-              })
-            )
-          );
-        };
-
-        return ConfigurePopper;
-      })(_react2.default.Component);
-
-      exports.default = ConfigurePopper;
 
       /***/
     },
@@ -78015,15 +78171,142 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var DateRange = (function(_React$Component) {
-        _inherits(DateRange, _React$Component);
+      var ConfigurePopper = (function(_React$PureComponent) {
+        _inherits(ConfigurePopper, _React$PureComponent);
+
+        function ConfigurePopper(props) {
+          _classCallCheck(this, ConfigurePopper);
+
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
+          );
+
+          _this.handleChange = function(date) {
+            _this.setState({
+              startDate: date
+            });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)()
+          };
+          return _this;
+        }
+
+        ConfigurePopper.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    popperClassName=\"some-custom-class\"\n    popperPlacement=\"top-end\"\n    popperModifiers={{\n      offset: {\n        enabled: true,\n        offset: '5px, 10px'\n      },\n      preventOverflow: {\n        enabled: true,\n        escapeWithReference: false, // force popper to stay in viewport (even when input is scrolled out of view)\n        boundariesElement: 'viewport'\n      }\n    }}\n/>\n"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.startDate,
+                onChange: this.handleChange,
+                popperClassName: "some-custom-class",
+                popperPlacement: "top-end",
+                popperModifiers: {
+                  offset: {
+                    enabled: true,
+                    offset: "5px, 10px"
+                  },
+                  preventOverflow: {
+                    enabled: true,
+                    escapeWithReference: false,
+                    boundariesElement: "viewport"
+                  }
+                }
+              })
+            )
+          );
+        };
+
+        return ConfigurePopper;
+      })(_react2.default.PureComponent);
+
+      exports.default = ConfigurePopper;
+
+      /***/
+    },
+    /* 374 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var DateRange = (function(_React$PureComponent) {
+        _inherits(DateRange, _React$PureComponent);
 
         function DateRange(props) {
           _classCallCheck(this, DateRange);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(_ref) {
@@ -78092,138 +78375,9 @@
         };
 
         return DateRange;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = DateRange;
-
-      /***/
-    },
-    /* 374 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var DateRangeWithShowDisabledNavigation = (function(_React$Component) {
-        _inherits(DateRangeWithShowDisabledNavigation, _React$Component);
-
-        function DateRangeWithShowDisabledNavigation() {
-          var _temp, _this, _ret;
-
-          _classCallCheck(this, DateRangeWithShowDisabledNavigation);
-
-          for (
-            var _len = arguments.length, args = Array(_len), _key = 0;
-            _key < _len;
-            _key++
-          ) {
-            args[_key] = arguments[_key];
-          }
-
-          return (
-            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
-              this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
-            )),
-            _this)),
-            (_this.state = {
-              startDate: null
-            }),
-            (_this.handleChange = function(date) {
-              _this.setState({
-                startDate: date
-              });
-            }),
-            _temp)),
-            _possibleConstructorReturn(_this, _ret)
-          );
-        }
-
-        DateRangeWithShowDisabledNavigation.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  minDate={moment()}\n  maxDate={moment().add(5, "months")}\n  showDisabledMonthNavigation />\n</div>\n\n'
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.startDate,
-                onChange: this.handleChange,
-                minDate: (0, _moment2.default)(),
-                maxDate: (0, _moment2.default)().add(5, "months"),
-                showDisabledMonthNavigation: true
-              })
-            )
-          );
-        };
-
-        return DateRangeWithShowDisabledNavigation;
-      })(_react2.default.Component);
-
-      exports.default = DateRangeWithShowDisabledNavigation;
 
       /***/
     },
@@ -78287,30 +78441,47 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var TabIndex = (function(_React$Component) {
-        _inherits(TabIndex, _React$Component);
+      var DateRangeWithShowDisabledNavigation = (function(
+        _React$PureComponent
+      ) {
+        _inherits(DateRangeWithShowDisabledNavigation, _React$PureComponent);
 
-        function TabIndex(props) {
-          _classCallCheck(this, TabIndex);
+        function DateRangeWithShowDisabledNavigation() {
+          var _temp, _this, _ret;
 
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
+          _classCallCheck(this, DateRangeWithShowDisabledNavigation);
+
+          for (
+            var _len = arguments.length, args = Array(_len), _key = 0;
+            _key < _len;
+            _key++
+          ) {
+            args[_key] = arguments[_key];
+          }
+
+          return (
+            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
+              this,
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
+            )),
+            _this)),
+            (_this.state = {
+              startDate: null
+            }),
+            (_this.handleChange = function(date) {
+              _this.setState({
+                startDate: date
+              });
+            }),
+            _temp)),
+            _possibleConstructorReturn(_this, _ret)
           );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
         }
 
-        TabIndex.prototype.render = function render() {
+        DateRangeWithShowDisabledNavigation.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -78320,7 +78491,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    tabIndex={1}\n/>\n"
+                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  minDate={moment()}\n  maxDate={moment().add(5, "months")}\n  showDisabledMonthNavigation />\n</div>\n\n'
               )
             ),
             _react2.default.createElement(
@@ -78329,16 +78500,18 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                tabIndex: 1
+                minDate: (0, _moment2.default)(),
+                maxDate: (0, _moment2.default)().add(5, "months"),
+                showDisabledMonthNavigation: true
               })
             )
           );
         };
 
-        return TabIndex;
-      })(_react2.default.Component);
+        return DateRangeWithShowDisabledNavigation;
+      })(_react2.default.PureComponent);
 
-      exports.default = TabIndex;
+      exports.default = DateRangeWithShowDisabledNavigation;
 
       /***/
     },
@@ -78402,15 +78575,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var YearDropdown = (function(_React$Component) {
-        _inherits(YearDropdown, _React$Component);
+      var TabIndex = (function(_React$PureComponent) {
+        _inherits(TabIndex, _React$PureComponent);
 
-        function YearDropdown(props) {
-          _classCallCheck(this, YearDropdown);
+        function TabIndex(props) {
+          _classCallCheck(this, TabIndex);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -78425,7 +78598,7 @@
           return _this;
         }
 
-        YearDropdown.prototype.render = function render() {
+        TabIndex.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -78435,7 +78608,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\n        <DatePicker\n            selected={this.state.startDate}\n            onChange={this.handleChange}\n            showYearDropdown\n            dateFormatCalendar="MMMM"\n            scrollableYearDropdown\n            yearDropdownItemNumber={15}\n        />\n        '
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    tabIndex={1}\n/>\n"
               )
             ),
             _react2.default.createElement(
@@ -78444,19 +78617,16 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                showYearDropdown: true,
-                dateFormatCalendar: "MMMM",
-                yearDropdownItemNumber: 15,
-                scrollableYearDropdown: true
+                tabIndex: 1
               })
             )
           );
         };
 
-        return YearDropdown;
-      })(_react2.default.Component);
+        return TabIndex;
+      })(_react2.default.PureComponent);
 
-      exports.default = YearDropdown;
+      exports.default = TabIndex;
 
       /***/
     },
@@ -78520,15 +78690,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var MonthDropdown = (function(_React$Component) {
-        _inherits(MonthDropdown, _React$Component);
+      var YearDropdown = (function(_React$PureComponent) {
+        _inherits(YearDropdown, _React$PureComponent);
 
-        function MonthDropdown(props) {
-          _classCallCheck(this, MonthDropdown);
+        function YearDropdown(props) {
+          _classCallCheck(this, YearDropdown);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -78543,7 +78713,7 @@
           return _this;
         }
 
-        MonthDropdown.prototype.render = function render() {
+        YearDropdown.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -78553,7 +78723,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    showMonthDropdown\n/>\n"
+                '\n        <DatePicker\n            selected={this.state.startDate}\n            onChange={this.handleChange}\n            showYearDropdown\n            dateFormatCalendar="MMMM"\n            scrollableYearDropdown\n            yearDropdownItemNumber={15}\n        />\n        '
               )
             ),
             _react2.default.createElement(
@@ -78562,16 +78732,19 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                showMonthDropdown: true
+                showYearDropdown: true,
+                dateFormatCalendar: "MMMM",
+                yearDropdownItemNumber: 15,
+                scrollableYearDropdown: true
               })
             )
           );
         };
 
-        return MonthDropdown;
-      })(_react2.default.Component);
+        return YearDropdown;
+      })(_react2.default.PureComponent);
 
-      exports.default = MonthDropdown;
+      exports.default = YearDropdown;
 
       /***/
     },
@@ -78635,15 +78808,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var MonthYearDropdown = (function(_React$Component) {
-        _inherits(MonthYearDropdown, _React$Component);
+      var MonthDropdown = (function(_React$PureComponent) {
+        _inherits(MonthDropdown, _React$PureComponent);
 
-        function MonthYearDropdown(props) {
-          _classCallCheck(this, MonthYearDropdown);
+        function MonthDropdown(props) {
+          _classCallCheck(this, MonthDropdown);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -78658,7 +78831,7 @@
           return _this;
         }
 
-        MonthYearDropdown.prototype.render = function render() {
+        MonthDropdown.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -78668,7 +78841,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  dateFormatCalendar={"MMM YYYY"}\n  minDate={moment().subtract(6, "month")}\n  maxDate={moment().add(6, "month")}\n  showMonthYearDropdown\n/>\n'
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    showMonthDropdown\n/>\n"
               )
             ),
             _react2.default.createElement(
@@ -78677,19 +78850,16 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                dateFormatCalendar: "MMM YYYY",
-                minDate: (0, _moment2.default)().subtract(6, "month"),
-                maxDate: (0, _moment2.default)().add(6, "month"),
-                showMonthYearDropdown: true
+                showMonthDropdown: true
               })
             )
           );
         };
 
-        return MonthYearDropdown;
-      })(_react2.default.Component);
+        return MonthDropdown;
+      })(_react2.default.PureComponent);
 
-      exports.default = MonthYearDropdown;
+      exports.default = MonthDropdown;
 
       /***/
     },
@@ -78753,15 +78923,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var MonthDropdownShort = (function(_React$Component) {
-        _inherits(MonthDropdownShort, _React$Component);
+      var MonthYearDropdown = (function(_React$PureComponent) {
+        _inherits(MonthYearDropdown, _React$PureComponent);
 
-        function MonthDropdownShort(props) {
-          _classCallCheck(this, MonthDropdownShort);
+        function MonthYearDropdown(props) {
+          _classCallCheck(this, MonthYearDropdown);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -78776,7 +78946,7 @@
           return _this;
         }
 
-        MonthDropdownShort.prototype.render = function render() {
+        MonthYearDropdown.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -78786,7 +78956,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    showMonthDropdown\n    useShortMonthInDropdown\n/>\n"
+                '\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n  dateFormatCalendar={"MMM YYYY"}\n  minDate={moment().subtract(6, "month")}\n  maxDate={moment().add(6, "month")}\n  showMonthYearDropdown\n/>\n'
               )
             ),
             _react2.default.createElement(
@@ -78795,17 +78965,19 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                showMonthDropdown: true,
-                useShortMonthInDropdown: true
+                dateFormatCalendar: "MMM YYYY",
+                minDate: (0, _moment2.default)().subtract(6, "month"),
+                maxDate: (0, _moment2.default)().add(6, "month"),
+                showMonthYearDropdown: true
               })
             )
           );
         };
 
-        return MonthDropdownShort;
-      })(_react2.default.Component);
+        return MonthYearDropdown;
+      })(_react2.default.PureComponent);
 
-      exports.default = MonthDropdownShort;
+      exports.default = MonthYearDropdown;
 
       /***/
     },
@@ -78869,15 +79041,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var YearDropdown = (function(_React$Component) {
-        _inherits(YearDropdown, _React$Component);
+      var MonthDropdownShort = (function(_React$PureComponent) {
+        _inherits(MonthDropdownShort, _React$PureComponent);
 
-        function YearDropdown(props) {
-          _classCallCheck(this, YearDropdown);
+        function MonthDropdownShort(props) {
+          _classCallCheck(this, MonthDropdownShort);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -78892,7 +79064,7 @@
           return _this;
         }
 
-        YearDropdown.prototype.render = function render() {
+        MonthDropdownShort.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -78902,7 +79074,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    peekNextMonth\n    showMonthDropdown\n    showYearDropdown\n    dropdownMode="select"\n/>\n'
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    showMonthDropdown\n    useShortMonthInDropdown\n/>\n"
               )
             ),
             _react2.default.createElement(
@@ -78911,19 +79083,17 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                peekNextMonth: true,
                 showMonthDropdown: true,
-                showYearDropdown: true,
-                dropdownMode: "select"
+                useShortMonthInDropdown: true
               })
             )
           );
         };
 
-        return YearDropdown;
-      })(_react2.default.Component);
+        return MonthDropdownShort;
+      })(_react2.default.PureComponent);
 
-      exports.default = YearDropdown;
+      exports.default = MonthDropdownShort;
 
       /***/
     },
@@ -78987,15 +79157,133 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Today = (function(_React$Component) {
-        _inherits(Today, _React$Component);
+      var YearDropdown = (function(_React$PureComponent) {
+        _inherits(YearDropdown, _React$PureComponent);
+
+        function YearDropdown(props) {
+          _classCallCheck(this, YearDropdown);
+
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
+          );
+
+          _this.handleChange = function(date) {
+            _this.setState({
+              startDate: date
+            });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)()
+          };
+          return _this;
+        }
+
+        YearDropdown.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                '\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    peekNextMonth\n    showMonthDropdown\n    showYearDropdown\n    dropdownMode="select"\n/>\n'
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.startDate,
+                onChange: this.handleChange,
+                peekNextMonth: true,
+                showMonthDropdown: true,
+                showYearDropdown: true,
+                dropdownMode: "select"
+              })
+            )
+          );
+        };
+
+        return YearDropdown;
+      })(_react2.default.PureComponent);
+
+      exports.default = YearDropdown;
+
+      /***/
+    },
+    /* 382 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var Today = (function(_React$PureComponent) {
+        _inherits(Today, _React$PureComponent);
 
         function Today(props) {
           _classCallCheck(this, Today);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -79036,13 +79324,13 @@
         };
 
         return Today;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = Today;
 
       /***/
     },
-    /* 382 */
+    /* 383 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -79098,8 +79386,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var TimeZoneDate = (function(_React$Component) {
-        _inherits(TimeZoneDate, _React$Component);
+      var TimeZoneDate = (function(_React$PureComponent) {
+        _inherits(TimeZoneDate, _React$PureComponent);
 
         function TimeZoneDate() {
           var _temp, _this, _ret;
@@ -79117,7 +79405,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -79251,124 +79542,9 @@
         };
 
         return TimeZoneDate;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = TimeZoneDate;
-
-      /***/
-    },
-    /* 383 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var Inline = (function(_React$Component) {
-        _inherits(Inline, _React$Component);
-
-        function Inline(props) {
-          _classCallCheck(this, Inline);
-
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
-          );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
-        }
-
-        Inline.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "\n<DatePicker\n    inline\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n/>\n"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                inline: true,
-                selected: this.state.startDate,
-                onChange: this.handleChange
-              })
-            )
-          );
-        };
-
-        return Inline;
-      })(_react2.default.Component);
-
-      exports.default = Inline;
 
       /***/
     },
@@ -79432,42 +79608,30 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var OpenToDate = (function(_React$Component) {
-        _inherits(OpenToDate, _React$Component);
+      var Inline = (function(_React$PureComponent) {
+        _inherits(Inline, _React$PureComponent);
 
-        function OpenToDate() {
-          var _temp, _this, _ret;
+        function Inline(props) {
+          _classCallCheck(this, Inline);
 
-          _classCallCheck(this, OpenToDate);
-
-          for (
-            var _len = arguments.length, args = Array(_len), _key = 0;
-            _key < _len;
-            _key++
-          ) {
-            args[_key] = arguments[_key];
-          }
-
-          return (
-            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
-              this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
-            )),
-            _this)),
-            (_this.state = {
-              startDate: null
-            }),
-            (_this.handleChange = function(date) {
-              _this.setState({
-                startDate: date
-              });
-            }),
-            _temp)),
-            _possibleConstructorReturn(_this, _ret)
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
           );
+
+          _this.handleChange = function(date) {
+            _this.setState({
+              startDate: date
+            });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)()
+          };
+          return _this;
         }
 
-        OpenToDate.prototype.render = function render() {
+        Inline.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -79477,14 +79641,14 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\n<DatePicker\n    openToDate={moment("1993-09-28")}\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n/>\n'
+                "\n<DatePicker\n    inline\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n/>\n"
               )
             ),
             _react2.default.createElement(
               "div",
               { className: "column" },
               _react2.default.createElement(_reactDatepicker2.default, {
-                openToDate: (0, _moment2.default)("1993-09-28"),
+                inline: true,
                 selected: this.state.startDate,
                 onChange: this.handleChange
               })
@@ -79492,143 +79656,14 @@
           );
         };
 
-        return OpenToDate;
-      })(_react2.default.Component);
+        return Inline;
+      })(_react2.default.PureComponent);
 
-      exports.default = OpenToDate;
+      exports.default = Inline;
 
       /***/
     },
     /* 385 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var FixedCalendar = (function(_React$Component) {
-        _inherits(FixedCalendar, _React$Component);
-
-        function FixedCalendar() {
-          var _temp, _this, _ret;
-
-          _classCallCheck(this, FixedCalendar);
-
-          for (
-            var _len = arguments.length, args = Array(_len), _key = 0;
-            _key < _len;
-            _key++
-          ) {
-            args[_key] = arguments[_key];
-          }
-
-          return (
-            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
-              this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
-            )),
-            _this)),
-            (_this.state = {
-              startDate: null
-            }),
-            (_this.handleChange = function(date) {
-              _this.setState({
-                startDate: date
-              });
-            }),
-            _temp)),
-            _possibleConstructorReturn(_this, _ret)
-          );
-        }
-
-        FixedCalendar.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "<DatePicker",
-                _react2.default.createElement("br", null),
-                "fixedHeight",
-                _react2.default.createElement("br", null),
-                "selected={this.state.startDate}",
-                _react2.default.createElement("br", null),
-                "onChange={this.handleChange} />"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                fixedHeight: true,
-                selected: this.state.startDate,
-                onChange: this.handleChange
-              })
-            )
-          );
-        };
-
-        return FixedCalendar;
-      })(_react2.default.Component);
-
-      exports.default = FixedCalendar;
-
-      /***/
-    },
-    /* 386 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -79688,15 +79723,277 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Default = (function(_React$Component) {
-        _inherits(Default, _React$Component);
+      var OpenToDate = (function(_React$PureComponent) {
+        _inherits(OpenToDate, _React$PureComponent);
+
+        function OpenToDate() {
+          var _temp, _this, _ret;
+
+          _classCallCheck(this, OpenToDate);
+
+          for (
+            var _len = arguments.length, args = Array(_len), _key = 0;
+            _key < _len;
+            _key++
+          ) {
+            args[_key] = arguments[_key];
+          }
+
+          return (
+            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
+              this,
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
+            )),
+            _this)),
+            (_this.state = {
+              startDate: null
+            }),
+            (_this.handleChange = function(date) {
+              _this.setState({
+                startDate: date
+              });
+            }),
+            _temp)),
+            _possibleConstructorReturn(_this, _ret)
+          );
+        }
+
+        OpenToDate.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                '\n<DatePicker\n    openToDate={moment("1993-09-28")}\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n/>\n'
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                openToDate: (0, _moment2.default)("1993-09-28"),
+                selected: this.state.startDate,
+                onChange: this.handleChange
+              })
+            )
+          );
+        };
+
+        return OpenToDate;
+      })(_react2.default.PureComponent);
+
+      exports.default = OpenToDate;
+
+      /***/
+    },
+    /* 386 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var FixedCalendar = (function(_React$PureComponent) {
+        _inherits(FixedCalendar, _React$PureComponent);
+
+        function FixedCalendar() {
+          var _temp, _this, _ret;
+
+          _classCallCheck(this, FixedCalendar);
+
+          for (
+            var _len = arguments.length, args = Array(_len), _key = 0;
+            _key < _len;
+            _key++
+          ) {
+            args[_key] = arguments[_key];
+          }
+
+          return (
+            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
+              this,
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
+            )),
+            _this)),
+            (_this.state = {
+              startDate: null
+            }),
+            (_this.handleChange = function(date) {
+              _this.setState({
+                startDate: date
+              });
+            }),
+            _temp)),
+            _possibleConstructorReturn(_this, _ret)
+          );
+        }
+
+        FixedCalendar.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "<DatePicker",
+                _react2.default.createElement("br", null),
+                "fixedHeight",
+                _react2.default.createElement("br", null),
+                "selected={this.state.startDate}",
+                _react2.default.createElement("br", null),
+                "onChange={this.handleChange} />"
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                fixedHeight: true,
+                selected: this.state.startDate,
+                onChange: this.handleChange
+              })
+            )
+          );
+        };
+
+        return FixedCalendar;
+      })(_react2.default.PureComponent);
+
+      exports.default = FixedCalendar;
+
+      /***/
+    },
+    /* 387 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var Default = (function(_React$PureComponent) {
+        _inherits(Default, _React$PureComponent);
 
         function Default(props) {
           _classCallCheck(this, Default);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -79737,13 +80034,13 @@
         };
 
         return Default;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = Default;
 
       /***/
     },
-    /* 387 */
+    /* 388 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -79808,15 +80105,15 @@
       }
 
       /* eslint-disable react/no-multi-comp */
-      var ExampleCustomInput = (function(_React$Component) {
-        _inherits(ExampleCustomInput, _React$Component);
+      var ExampleCustomInput = (function(_React$PureComponent) {
+        _inherits(ExampleCustomInput, _React$PureComponent);
 
         function ExampleCustomInput() {
           _classCallCheck(this, ExampleCustomInput);
 
           return _possibleConstructorReturn(
             this,
-            _React$Component.apply(this, arguments)
+            _React$PureComponent.apply(this, arguments)
           );
         }
 
@@ -79832,22 +80129,22 @@
         };
 
         return ExampleCustomInput;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       ExampleCustomInput.propTypes = {
         onClick: _propTypes2.default.func,
         value: _propTypes2.default.string
       };
 
-      var CustomInput = (function(_React$Component2) {
-        _inherits(CustomInput, _React$Component2);
+      var CustomInput = (function(_React$PureComponent2) {
+        _inherits(CustomInput, _React$PureComponent2);
 
         function CustomInput(props) {
           _classCallCheck(this, CustomInput);
 
           var _this2 = _possibleConstructorReturn(
             this,
-            _React$Component2.call(this, props)
+            _React$PureComponent2.call(this, props)
           );
 
           _this2.handleChange = function(date) {
@@ -79872,7 +80169,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\nclass ExampleCustomInput extends React.Component {\n\n  render () {\n    return (\n      <button\n        className="example-custom-input"\n        onClick={this.props.onClick}>\n        {this.props.value}\n      </button>\n    )\n  }\n}\n\nExampleCustomInput.propTypes = {\n  onClick: PropTypes.func,\n  value: PropTypes.string\n};\n\n...\n\n<DatePicker\n  customInput={<ExampleCustomInput />}\n  selected={this.state.startDate}\n  onChange={this.handleChange} />\n'
+                '\nclass ExampleCustomInput extends React.PureComponent {\n\n  render () {\n    return (\n      <button\n        className="example-custom-input"\n        onClick={this.props.onClick}>\n        {this.props.value}\n      </button>\n    )\n  }\n}\n\nExampleCustomInput.propTypes = {\n  onClick: PropTypes.func,\n  value: PropTypes.string\n};\n\n...\n\n<DatePicker\n  customInput={<ExampleCustomInput />}\n  selected={this.state.startDate}\n  onChange={this.handleChange} />\n'
               )
             ),
             _react2.default.createElement(
@@ -79891,124 +80188,9 @@
         };
 
         return CustomInput;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = CustomInput;
-
-      /***/
-    },
-    /* 388 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var MultiMonth = (function(_React$Component) {
-        _inherits(MultiMonth, _React$Component);
-
-        function MultiMonth(props) {
-          _classCallCheck(this, MultiMonth);
-
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
-          );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
-        }
-
-        MultiMonth.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    monthsShown={2}\n/>\n"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                monthsShown: 2,
-                onChange: this.handleChange,
-                selected: this.state.startDate
-              })
-            )
-          );
-        };
-
-        return MultiMonth;
-      })(_react2.default.Component);
-
-      exports.default = MultiMonth;
 
       /***/
     },
@@ -80072,15 +80254,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var MultiMonthDrp = (function(_React$Component) {
-        _inherits(MultiMonthDrp, _React$Component);
+      var MultiMonth = (function(_React$PureComponent) {
+        _inherits(MultiMonth, _React$PureComponent);
 
-        function MultiMonthDrp(props) {
-          _classCallCheck(this, MultiMonthDrp);
+        function MultiMonth(props) {
+          _classCallCheck(this, MultiMonth);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -80095,7 +80277,7 @@
           return _this;
         }
 
-        MultiMonthDrp.prototype.render = function render() {
+        MultiMonth.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -80105,7 +80287,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    showYearDropdown\n    monthsShown={2}\n/>\n"
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    monthsShown={2}\n/>\n"
               )
             ),
             _react2.default.createElement(
@@ -80114,17 +80296,16 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 monthsShown: 2,
                 onChange: this.handleChange,
-                showYearDropdown: true,
                 selected: this.state.startDate
               })
             )
           );
         };
 
-        return MultiMonthDrp;
-      })(_react2.default.Component);
+        return MultiMonth;
+      })(_react2.default.PureComponent);
 
-      exports.default = MultiMonthDrp;
+      exports.default = MultiMonth;
 
       /***/
     },
@@ -80188,15 +80369,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var Children = (function(_React$Component) {
-        _inherits(Children, _React$Component);
+      var MultiMonthDrp = (function(_React$PureComponent) {
+        _inherits(MultiMonthDrp, _React$PureComponent);
 
-        function Children(props) {
-          _classCallCheck(this, Children);
+        function MultiMonthDrp(props) {
+          _classCallCheck(this, MultiMonthDrp);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -80211,7 +80392,7 @@
           return _this;
         }
 
-        Children.prototype.render = function render() {
+        MultiMonthDrp.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -80221,32 +80402,26 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n>\n  <div style={{color: 'red'}}>\n    Don't forget to check the weather!\n  </div>\n</DatePicker>\n"
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    showYearDropdown\n    monthsShown={2}\n/>\n"
               )
             ),
             _react2.default.createElement(
               "div",
               { className: "column" },
-              _react2.default.createElement(
-                _reactDatepicker2.default,
-                {
-                  selected: this.state.startDate,
-                  onChange: this.handleChange
-                },
-                _react2.default.createElement(
-                  "div",
-                  { style: { color: "red" } },
-                  "Don't forget to check the weather!"
-                )
-              )
+              _react2.default.createElement(_reactDatepicker2.default, {
+                monthsShown: 2,
+                onChange: this.handleChange,
+                showYearDropdown: true,
+                selected: this.state.startDate
+              })
             )
           );
         };
 
-        return Children;
-      })(_react2.default.Component);
+        return MultiMonthDrp;
+      })(_react2.default.PureComponent);
 
-      exports.default = Children;
+      exports.default = MultiMonthDrp;
 
       /***/
     },
@@ -80310,15 +80485,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var WithPortal = (function(_React$Component) {
-        _inherits(WithPortal, _React$Component);
+      var Children = (function(_React$PureComponent) {
+        _inherits(Children, _React$PureComponent);
 
-        function WithPortal(props) {
-          _classCallCheck(this, WithPortal);
+        function Children(props) {
+          _classCallCheck(this, Children);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -80333,7 +80508,7 @@
           return _this;
         }
 
-        WithPortal.prototype.render = function render() {
+        Children.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -80343,25 +80518,32 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    withPortal\n/>\n"
+                "\n<DatePicker\n  selected={this.state.startDate}\n  onChange={this.handleChange}\n>\n  <div style={{color: 'red'}}>\n    Don't forget to check the weather!\n  </div>\n</DatePicker>\n"
               )
             ),
             _react2.default.createElement(
               "div",
               { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.startDate,
-                onChange: this.handleChange,
-                withPortal: true
-              })
+              _react2.default.createElement(
+                _reactDatepicker2.default,
+                {
+                  selected: this.state.startDate,
+                  onChange: this.handleChange
+                },
+                _react2.default.createElement(
+                  "div",
+                  { style: { color: "red" } },
+                  "Don't forget to check the weather!"
+                )
+              )
             )
           );
         };
 
-        return WithPortal;
-      })(_react2.default.Component);
+        return Children;
+      })(_react2.default.PureComponent);
 
-      exports.default = WithPortal;
+      exports.default = Children;
 
       /***/
     },
@@ -80425,35 +80607,30 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var InlinePortalVersion = (function(_React$Component) {
-        _inherits(InlinePortalVersion, _React$Component);
+      var WithPortal = (function(_React$PureComponent) {
+        _inherits(WithPortal, _React$PureComponent);
 
-        function InlinePortalVersion(props) {
-          _classCallCheck(this, InlinePortalVersion);
+        function WithPortal(props) {
+          _classCallCheck(this, WithPortal);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
-            _this.setState({ startDate: date });
-            _this.toggleCalendar();
-          };
-
-          _this.toggleCalendar = function(e) {
-            e && e.preventDefault();
-            _this.setState({ isOpen: !_this.state.isOpen });
+            _this.setState({
+              startDate: date
+            });
           };
 
           _this.state = {
-            startDate: (0, _moment2.default)(),
-            isOpen: false
+            startDate: (0, _moment2.default)()
           };
           return _this;
         }
 
-        InlinePortalVersion.prototype.render = function render() {
+        WithPortal.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -80463,35 +80640,25 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\nhandleChange (date) {\n  this.setState({startDate: date})\n  this.toggleCalendar()\n}\n\ntoggleCalendar (e) {\n  e && e.preventDefault()\n  this.setState({isOpen: !this.state.isOpen})\n}\n\n<div>\n    <button\n        className="example-custom-input"\n        onClick={this.toggleCalendar}>\n        {this.state.startDate.format("DD-MM-YYYY")}\n    </button>\n    {\n        this.state.isOpen && (\n            <DatePicker\n                selected={this.state.startDate}\n                onChange={this.handleChange}\n                withPortal\n                inline />\n        )\n    }\n</div>\n'
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    withPortal\n/>\n"
               )
             ),
             _react2.default.createElement(
               "div",
               { className: "column" },
-              _react2.default.createElement(
-                "button",
-                {
-                  className: "example-custom-input",
-                  onClick: this.toggleCalendar
-                },
-                this.state.startDate.format("DD-MM-YYYY")
-              ),
-              this.state.isOpen &&
-                _react2.default.createElement(_reactDatepicker2.default, {
-                  selected: this.state.startDate,
-                  onChange: this.handleChange,
-                  withPortal: true,
-                  inline: true
-                })
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.startDate,
+                onChange: this.handleChange,
+                withPortal: true
+              })
             )
           );
         };
 
-        return InlinePortalVersion;
-      })(_react2.default.Component);
+        return WithPortal;
+      })(_react2.default.PureComponent);
 
-      exports.default = InlinePortalVersion;
+      exports.default = WithPortal;
 
       /***/
     },
@@ -80555,49 +80722,35 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var RawChanges = (function(_React$Component) {
-        _inherits(RawChanges, _React$Component);
+      var InlinePortalVersion = (function(_React$PureComponent) {
+        _inherits(InlinePortalVersion, _React$PureComponent);
 
-        function RawChanges() {
-          var _temp, _this, _ret;
+        function InlinePortalVersion(props) {
+          _classCallCheck(this, InlinePortalVersion);
 
-          _classCallCheck(this, RawChanges);
-
-          for (
-            var _len = arguments.length, args = Array(_len), _key = 0;
-            _key < _len;
-            _key++
-          ) {
-            args[_key] = arguments[_key];
-          }
-
-          return (
-            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
-              this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
-            )),
-            _this)),
-            (_this.state = {
-              startDate: null
-            }),
-            (_this.handleChange = function(date) {
-              _this.setState({
-                startDate: date
-              });
-            }),
-            (_this.handleChangeRaw = function(value) {
-              if (value === "tomorrow") {
-                _this.handleChange((0, _moment2.default)().add(1, "day"));
-              }
-            }),
-            _temp)),
-            _possibleConstructorReturn(_this, _ret)
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
           );
+
+          _this.handleChange = function(date) {
+            _this.setState({ startDate: date });
+            _this.toggleCalendar();
+          };
+
+          _this.toggleCalendar = function(e) {
+            e && e.preventDefault();
+            _this.setState({ isOpen: !_this.state.isOpen });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)(),
+            isOpen: false
+          };
+          return _this;
         }
 
-        RawChanges.prototype.render = function render() {
-          var _this2 = this;
-
+        InlinePortalVersion.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -80607,28 +80760,35 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                '\nhandleChangeRaw(value) {\n  if(value === "tomorrow") {\n    const tomorrow = moment().add(1, "day")\n    this.handleChange(tomorrow)\n  }\n}\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    placeholderText="Enter tomorrow"\n    onChangeRaw={(event) =>\n      this.handleChangeRaw(event.target.value)}\n/>\n'
+                '\nhandleChange (date) {\n  this.setState({startDate: date})\n  this.toggleCalendar()\n}\n\ntoggleCalendar (e) {\n  e && e.preventDefault()\n  this.setState({isOpen: !this.state.isOpen})\n}\n\n<div>\n    <button\n        className="example-custom-input"\n        onClick={this.toggleCalendar}>\n        {this.state.startDate.format("DD-MM-YYYY")}\n    </button>\n    {\n        this.state.isOpen && (\n            <DatePicker\n                selected={this.state.startDate}\n                onChange={this.handleChange}\n                withPortal\n                inline />\n        )\n    }\n</div>\n'
               )
             ),
             _react2.default.createElement(
               "div",
               { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.startDate,
-                onChange: this.handleChange,
-                placeholderText: 'Enter "tomorrow"',
-                onChangeRaw: function onChangeRaw(event) {
-                  return _this2.handleChangeRaw(event.target.value);
-                }
-              })
+              _react2.default.createElement(
+                "button",
+                {
+                  className: "example-custom-input",
+                  onClick: this.toggleCalendar
+                },
+                this.state.startDate.format("DD-MM-YYYY")
+              ),
+              this.state.isOpen &&
+                _react2.default.createElement(_reactDatepicker2.default, {
+                  selected: this.state.startDate,
+                  onChange: this.handleChange,
+                  withPortal: true,
+                  inline: true
+                })
             )
           );
         };
 
-        return RawChanges;
-      })(_react2.default.Component);
+        return InlinePortalVersion;
+      })(_react2.default.PureComponent);
 
-      exports.default = RawChanges;
+      exports.default = InlinePortalVersion;
 
       /***/
     },
@@ -80692,30 +80852,52 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var ShowTime = (function(_React$Component) {
-        _inherits(ShowTime, _React$Component);
+      var RawChanges = (function(_React$PureComponent) {
+        _inherits(RawChanges, _React$PureComponent);
 
-        function ShowTime(props) {
-          _classCallCheck(this, ShowTime);
+        function RawChanges() {
+          var _temp, _this, _ret;
 
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
+          _classCallCheck(this, RawChanges);
+
+          for (
+            var _len = arguments.length, args = Array(_len), _key = 0;
+            _key < _len;
+            _key++
+          ) {
+            args[_key] = arguments[_key];
+          }
+
+          return (
+            (_ret = ((_temp = ((_this = _possibleConstructorReturn(
+              this,
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
+            )),
+            _this)),
+            (_this.state = {
+              startDate: null
+            }),
+            (_this.handleChange = function(date) {
+              _this.setState({
+                startDate: date
+              });
+            }),
+            (_this.handleChangeRaw = function(value) {
+              if (value === "tomorrow") {
+                _this.handleChange((0, _moment2.default)().add(1, "day"));
+              }
+            }),
+            _temp)),
+            _possibleConstructorReturn(_this, _ret)
           );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
         }
 
-        ShowTime.prototype.render = function render() {
+        RawChanges.prototype.render = function render() {
+          var _this2 = this;
+
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -80725,13 +80907,7 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}",
-                _react2.default.createElement("br", null),
-                _react2.default.createElement(
-                  "strong",
-                  null,
-                  '    showTimeSelect\n    timeFormat="HH:mm"\n    timeIntervals={15}\n    dateFormat="LLL"\n/>\n'
-                )
+                '\nhandleChangeRaw(value) {\n  if(value === "tomorrow") {\n    const tomorrow = moment().add(1, "day")\n    this.handleChange(tomorrow)\n  }\n}\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    placeholderText="Enter tomorrow"\n    onChangeRaw={(event) =>\n      this.handleChangeRaw(event.target.value)}\n/>\n'
               )
             ),
             _react2.default.createElement(
@@ -80740,19 +80916,19 @@
               _react2.default.createElement(_reactDatepicker2.default, {
                 selected: this.state.startDate,
                 onChange: this.handleChange,
-                showTimeSelect: true,
-                timeFormat: "HH:mm",
-                timeIntervals: 15,
-                dateFormat: "LLL"
+                placeholderText: 'Enter "tomorrow"',
+                onChangeRaw: function onChangeRaw(event) {
+                  return _this2.handleChangeRaw(event.target.value);
+                }
               })
             )
           );
         };
 
-        return ShowTime;
-      })(_react2.default.Component);
+        return RawChanges;
+      })(_react2.default.PureComponent);
 
-      exports.default = ShowTime;
+      exports.default = RawChanges;
 
       /***/
     },
@@ -80816,8 +80992,132 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var ExcludeTimes = (function(_React$Component) {
-        _inherits(ExcludeTimes, _React$Component);
+      var ShowTime = (function(_React$PureComponent) {
+        _inherits(ShowTime, _React$PureComponent);
+
+        function ShowTime(props) {
+          _classCallCheck(this, ShowTime);
+
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
+          );
+
+          _this.handleChange = function(date) {
+            _this.setState({
+              startDate: date
+            });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)()
+          };
+          return _this;
+        }
+
+        ShowTime.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}",
+                _react2.default.createElement("br", null),
+                _react2.default.createElement(
+                  "strong",
+                  null,
+                  '    showTimeSelect\n    timeFormat="HH:mm"\n    timeIntervals={15}\n    dateFormat="LLL"\n/>\n'
+                )
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                selected: this.state.startDate,
+                onChange: this.handleChange,
+                showTimeSelect: true,
+                timeFormat: "HH:mm",
+                timeIntervals: 15,
+                dateFormat: "LLL"
+              })
+            )
+          );
+        };
+
+        return ShowTime;
+      })(_react2.default.PureComponent);
+
+      exports.default = ShowTime;
+
+      /***/
+    },
+    /* 396 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var ExcludeTimes = (function(_React$PureComponent) {
+        _inherits(ExcludeTimes, _React$PureComponent);
 
         function ExcludeTimes() {
           var _temp, _this, _ret;
@@ -80835,7 +81135,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -80914,13 +81217,13 @@
         };
 
         return ExcludeTimes;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = ExcludeTimes;
 
       /***/
     },
-    /* 396 */
+    /* 397 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -80980,8 +81283,8 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var ExcludeTimePeriod = (function(_React$Component) {
-        _inherits(ExcludeTimePeriod, _React$Component);
+      var ExcludeTimePeriod = (function(_React$PureComponent) {
+        _inherits(ExcludeTimePeriod, _React$PureComponent);
 
         function ExcludeTimePeriod() {
           var _temp, _this, _ret;
@@ -80999,7 +81302,10 @@
           return (
             (_ret = ((_temp = ((_this = _possibleConstructorReturn(
               this,
-              _React$Component.call.apply(_React$Component, [this].concat(args))
+              _React$PureComponent.call.apply(
+                _React$PureComponent,
+                [this].concat(args)
+              )
             )),
             _this)),
             (_this.state = {
@@ -81068,124 +81374,9 @@
         };
 
         return ExcludeTimePeriod;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = ExcludeTimePeriod;
-
-      /***/
-    },
-    /* 397 */
-    /***/ function(module, exports, __webpack_require__) {
-      "use strict";
-
-      exports.__esModule = true;
-
-      var _react = __webpack_require__(2);
-
-      var _react2 = _interopRequireDefault(_react);
-
-      var _reactDatepicker = __webpack_require__(208);
-
-      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
-
-      var _moment = __webpack_require__(218);
-
-      var _moment2 = _interopRequireDefault(_moment);
-
-      function _interopRequireDefault(obj) {
-        return obj && obj.__esModule ? obj : { default: obj };
-      }
-
-      function _classCallCheck(instance, Constructor) {
-        if (!(instance instanceof Constructor)) {
-          throw new TypeError("Cannot call a class as a function");
-        }
-      }
-
-      function _possibleConstructorReturn(self, call) {
-        if (!self) {
-          throw new ReferenceError(
-            "this hasn't been initialised - super() hasn't been called"
-          );
-        }
-        return call && (typeof call === "object" || typeof call === "function")
-          ? call
-          : self;
-      }
-
-      function _inherits(subClass, superClass) {
-        if (typeof superClass !== "function" && superClass !== null) {
-          throw new TypeError(
-            "Super expression must either be null or a function, not " +
-              typeof superClass
-          );
-        }
-        subClass.prototype = Object.create(superClass && superClass.prototype, {
-          constructor: {
-            value: subClass,
-            enumerable: false,
-            writable: true,
-            configurable: true
-          }
-        });
-        if (superClass)
-          Object.setPrototypeOf
-            ? Object.setPrototypeOf(subClass, superClass)
-            : (subClass.__proto__ = superClass);
-      }
-
-      var DontCloseOnSelect = (function(_React$Component) {
-        _inherits(DontCloseOnSelect, _React$Component);
-
-        function DontCloseOnSelect(props) {
-          _classCallCheck(this, DontCloseOnSelect);
-
-          var _this = _possibleConstructorReturn(
-            this,
-            _React$Component.call(this, props)
-          );
-
-          _this.handleChange = function(date) {
-            _this.setState({
-              startDate: date
-            });
-          };
-
-          _this.state = {
-            startDate: (0, _moment2.default)()
-          };
-          return _this;
-        }
-
-        DontCloseOnSelect.prototype.render = function render() {
-          return _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(
-              "pre",
-              { className: "column example__code" },
-              _react2.default.createElement(
-                "code",
-                { className: "jsx" },
-                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    shouldCloseOnSelect={false}\n/>\n"
-              )
-            ),
-            _react2.default.createElement(
-              "div",
-              { className: "column" },
-              _react2.default.createElement(_reactDatepicker2.default, {
-                selected: this.state.startDate,
-                onChange: this.handleChange,
-                shouldCloseOnSelect: false
-              })
-            )
-          );
-        };
-
-        return DontCloseOnSelect;
-      })(_react2.default.Component);
-
-      exports.default = DontCloseOnSelect;
 
       /***/
     },
@@ -81249,15 +81440,15 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var OpenByDefault = (function(_React$Component) {
-        _inherits(OpenByDefault, _React$Component);
+      var DontCloseOnSelect = (function(_React$PureComponent) {
+        _inherits(DontCloseOnSelect, _React$PureComponent);
 
-        function OpenByDefault(props) {
-          _classCallCheck(this, OpenByDefault);
+        function DontCloseOnSelect(props) {
+          _classCallCheck(this, DontCloseOnSelect);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -81272,7 +81463,7 @@
           return _this;
         }
 
-        OpenByDefault.prototype.render = function render() {
+        DontCloseOnSelect.prototype.render = function render() {
           return _react2.default.createElement(
             "div",
             { className: "row" },
@@ -81282,36 +81473,29 @@
               _react2.default.createElement(
                 "code",
                 { className: "jsx" },
-                "\n          <DatePicker\n            autoFocus\n            selected={this.state.startDate}\n            onChange={this.handleChange}\n          />\n          "
+                "\n<DatePicker\n    selected={this.state.startDate}\n    onChange={this.handleChange}\n    shouldCloseOnSelect={false}\n/>\n"
               )
             ),
             _react2.default.createElement(
               "div",
               { className: "column" },
               _react2.default.createElement(_reactDatepicker2.default, {
-                autoFocus: true,
                 selected: this.state.startDate,
-                onChange: this.handleChange
+                onChange: this.handleChange,
+                shouldCloseOnSelect: false
               })
             )
           );
         };
 
-        return OpenByDefault;
-      })(_react2.default.Component);
+        return DontCloseOnSelect;
+      })(_react2.default.PureComponent);
 
-      exports.default = OpenByDefault;
+      exports.default = DontCloseOnSelect;
 
       /***/
     },
     /* 399 */
-    /***/ function(module, exports) {
-      // removed by extract-text-webpack-plugin
-      /***/
-    },
-    /* 400 */
-    399,
-    /* 401 */
     /***/ function(module, exports, __webpack_require__) {
       "use strict";
 
@@ -81371,15 +81555,137 @@
             : (subClass.__proto__ = superClass);
       }
 
-      var HeroExample = (function(_React$Component) {
-        _inherits(HeroExample, _React$Component);
+      var OpenByDefault = (function(_React$PureComponent) {
+        _inherits(OpenByDefault, _React$PureComponent);
+
+        function OpenByDefault(props) {
+          _classCallCheck(this, OpenByDefault);
+
+          var _this = _possibleConstructorReturn(
+            this,
+            _React$PureComponent.call(this, props)
+          );
+
+          _this.handleChange = function(date) {
+            _this.setState({
+              startDate: date
+            });
+          };
+
+          _this.state = {
+            startDate: (0, _moment2.default)()
+          };
+          return _this;
+        }
+
+        OpenByDefault.prototype.render = function render() {
+          return _react2.default.createElement(
+            "div",
+            { className: "row" },
+            _react2.default.createElement(
+              "pre",
+              { className: "column example__code" },
+              _react2.default.createElement(
+                "code",
+                { className: "jsx" },
+                "\n          <DatePicker\n            autoFocus\n            selected={this.state.startDate}\n            onChange={this.handleChange}\n          />\n          "
+              )
+            ),
+            _react2.default.createElement(
+              "div",
+              { className: "column" },
+              _react2.default.createElement(_reactDatepicker2.default, {
+                autoFocus: true,
+                selected: this.state.startDate,
+                onChange: this.handleChange
+              })
+            )
+          );
+        };
+
+        return OpenByDefault;
+      })(_react2.default.PureComponent);
+
+      exports.default = OpenByDefault;
+
+      /***/
+    },
+    /* 400 */
+    /***/ function(module, exports) {
+      // removed by extract-text-webpack-plugin
+      /***/
+    },
+    /* 401 */
+    400,
+    /* 402 */
+    /***/ function(module, exports, __webpack_require__) {
+      "use strict";
+
+      exports.__esModule = true;
+
+      var _react = __webpack_require__(2);
+
+      var _react2 = _interopRequireDefault(_react);
+
+      var _reactDatepicker = __webpack_require__(208);
+
+      var _reactDatepicker2 = _interopRequireDefault(_reactDatepicker);
+
+      var _moment = __webpack_require__(218);
+
+      var _moment2 = _interopRequireDefault(_moment);
+
+      function _interopRequireDefault(obj) {
+        return obj && obj.__esModule ? obj : { default: obj };
+      }
+
+      function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+          throw new TypeError("Cannot call a class as a function");
+        }
+      }
+
+      function _possibleConstructorReturn(self, call) {
+        if (!self) {
+          throw new ReferenceError(
+            "this hasn't been initialised - super() hasn't been called"
+          );
+        }
+        return call && (typeof call === "object" || typeof call === "function")
+          ? call
+          : self;
+      }
+
+      function _inherits(subClass, superClass) {
+        if (typeof superClass !== "function" && superClass !== null) {
+          throw new TypeError(
+            "Super expression must either be null or a function, not " +
+              typeof superClass
+          );
+        }
+        subClass.prototype = Object.create(superClass && superClass.prototype, {
+          constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+          }
+        });
+        if (superClass)
+          Object.setPrototypeOf
+            ? Object.setPrototypeOf(subClass, superClass)
+            : (subClass.__proto__ = superClass);
+      }
+
+      var HeroExample = (function(_React$PureComponent) {
+        _inherits(HeroExample, _React$PureComponent);
 
         function HeroExample(props) {
           _classCallCheck(this, HeroExample);
 
           var _this = _possibleConstructorReturn(
             this,
-            _React$Component.call(this, props)
+            _React$PureComponent.call(this, props)
           );
 
           _this.handleChange = function(date) {
@@ -81403,7 +81709,7 @@
         };
 
         return HeroExample;
-      })(_react2.default.Component);
+      })(_react2.default.PureComponent);
 
       exports.default = HeroExample;
 
