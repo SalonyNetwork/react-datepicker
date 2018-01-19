@@ -7,6 +7,8 @@ import Time from "./time";
 import React from "react";
 import PropTypes from "prop-types";
 import classnames from "classnames";
+import CSSTransition from 'react-transition-group/CSSTransition';
+import TransitionGroup from 'react-transition-group/TransitionGroup';
 import {
   now,
   setMonth,
@@ -358,56 +360,78 @@ export default class Calendar extends React.PureComponent {
     }
   };
 
+  childFactoryMaker() {
+    return (child) => {
+      console.log(child)
+      return React.cloneElement(child)
+    }
+  }
+
   renderMonths() {
     return (
-      <MonthsList
-        ref={el => { if(el) { this.monthContainer = el.monthContainer; } } }
-        onDropdownFocus={this.handleDropdownFocus}
-        onChangeMonth={this.handleMonthChange}
-        onChangeMonthYear={this.handleMonthYearChange}
-        onChangeYear={this.handleYearChange}
-        date={this.state.date}
-        selectingDate={this.state.selectingDate}
-        onDayClick={this.handleDayClick}
-        onDayMouseEnter={this.handleDayMouseEnter}
-        onMouseLeave={this.handleMonthMouseLeave}
-        adjustDateOnChange={this.props.adjustDateOnChange}
-        dateFormat={this.props.dateFormat}
-        dayClassName={this.props.dayClassName}
-        dropdownMode={this.props.dropdownMode}
-        endDate={this.props.endDate}
-        excludeDates={this.props.excludeDates}
-        filterDate={this.props.filterDate}
-        fixedHeight={this.props.fixedHeight}
-        formatWeekNumber={this.props.formatWeekNumber}
-        highlightDates={this.props.highlightDates}
-        includeDates={this.props.includeDates}
-        inline={this.props.inline}
-        locale={this.props.locale}
-        maxDate={this.props.maxDate}
-        minDate={this.props.minDate}
-        monthsShown={this.props.monthsShown}
-        onSelect={this.props.onSelect}
-        onWeekSelect={this.props.onWeekSelect}
-        peekNextMonth={this.props.peekNextMonth}
-        scrollableYearDropdown={this.props.scrollableYearDropdown}
-        scrollableMonthYearDropdown={this.props.scrollableMonthYearDropdown}
-        preSelection={this.props.preSelection}
-        selected={this.props.selected}
-        selectsEnd={this.props.selectsEnd}
-        selectsStart={this.props.selectsStart}
-        showMonthDropdown={this.props.showMonthDropdown}
-        showMonthYearDropdown={this.props.showMonthYearDropdown}
-        showWeekNumbers={this.props.showWeekNumbers}
-        showYearDropdown={this.props.showYearDropdown}
-        startDate={this.props.startDate}
-        useWeekdaysShort={this.props.useWeekdaysShort}
-        utcOffset={this.props.utcOffset}
-        weekLabel={this.props.weekLabel}
-        yearDropdownItemNumber={this.props.yearDropdownItemNumber}
-        setOpen={this.props.setOpen}
-        useShortMonthInDropdown={this.props.useShortMonthInDropdown}
-      />
+      <TransitionGroup>
+        <CSSTransition
+          key={this.state.date}
+          date={this.state.date}
+          timeout={50000}
+          classNames="react-datepicker__months-list-container-"
+          >
+          { (status, {date}) => {
+            return (
+              <div className="react-datepicker__months-list-container">
+                <MonthsList
+                  ref={el => { if(el) { this.monthContainer = el.monthContainer; } } }
+                  onDropdownFocus={this.handleDropdownFocus}
+                  onChangeMonth={this.handleMonthChange}
+                  onChangeMonthYear={this.handleMonthYearChange}
+                  onChangeYear={this.handleYearChange}
+                  date={date}
+                  selectingDate={this.state.selectingDate}
+                  onDayClick={this.handleDayClick}
+                  onDayMouseEnter={this.handleDayMouseEnter}
+                  onMouseLeave={this.handleMonthMouseLeave}
+                  adjustDateOnChange={this.props.adjustDateOnChange}
+                  dateFormat={this.props.dateFormat}
+                  dayClassName={this.props.dayClassName}
+                  dropdownMode={this.props.dropdownMode}
+                  endDate={this.props.endDate}
+                  excludeDates={this.props.excludeDates}
+                  filterDate={this.props.filterDate}
+                  fixedHeight={this.props.fixedHeight}
+                  formatWeekNumber={this.props.formatWeekNumber}
+                  highlightDates={this.props.highlightDates}
+                  includeDates={this.props.includeDates}
+                  inline={this.props.inline}
+                  locale={this.props.locale}
+                  maxDate={this.props.maxDate}
+                  minDate={this.props.minDate}
+                  monthsShown={this.props.monthsShown}
+                  onSelect={this.props.onSelect}
+                  onWeekSelect={this.props.onWeekSelect}
+                  peekNextMonth={this.props.peekNextMonth}
+                  scrollableYearDropdown={this.props.scrollableYearDropdown}
+                  scrollableMonthYearDropdown={this.props.scrollableMonthYearDropdown}
+                  preSelection={this.props.preSelection}
+                  selected={this.props.selected}
+                  selectsEnd={this.props.selectsEnd}
+                  selectsStart={this.props.selectsStart}
+                  showMonthDropdown={this.props.showMonthDropdown}
+                  showMonthYearDropdown={this.props.showMonthYearDropdown}
+                  showWeekNumbers={this.props.showWeekNumbers}
+                  showYearDropdown={this.props.showYearDropdown}
+                  startDate={this.props.startDate}
+                  useWeekdaysShort={this.props.useWeekdaysShort}
+                  utcOffset={this.props.utcOffset}
+                  weekLabel={this.props.weekLabel}
+                  yearDropdownItemNumber={this.props.yearDropdownItemNumber}
+                  setOpen={this.props.setOpen}
+                  useShortMonthInDropdown={this.props.useShortMonthInDropdown}
+                />
+              </div>
+            )
+          }}
+        </CSSTransition>
+      </TransitionGroup>
     )
   }
 

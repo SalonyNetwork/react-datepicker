@@ -183,7 +183,6 @@ class MonthsList extends React.PureComponent {
 
   render() {
     var monthList = [];
-    console.log(this.props.monthsShown)
     for (var i = 0; i < this.props.monthsShown; ++i) {
       var monthDate = addMonths(cloneDate(this.props.date), i);
       var monthKey = `month-${i}`;

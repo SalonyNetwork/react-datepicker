@@ -5,6 +5,27 @@
   display: inline-block;
 }
 
+.react-datepicker__months-list-container {
+  display: inline-block;
+  &--enter {
+    transform: translateX(-100%);
+  }
+
+  &--enter-active {
+    transform: translateX(0%);
+    transition: transform 10000ms ease;
+  }
+
+  &--exit {
+    transform: translateX(-100%);
+  }
+
+  &--exit-active {
+    transform: translateX(0%);
+    transition: transform 10000ms ease;
+  }
+}
+
 .react-datepicker {
   font-family: $datepicker__font-family;
   font-size: $datepicker__font-size;
@@ -529,9 +550,9 @@
     }
 
     &--disabled,
-     &--disabled:hover {
-       border-left-color: $datepicker__navigation-disabled-color;
-       cursor: default;
-     }
+    &--disabled:hover {
+      border-left-color: $datepicker__navigation-disabled-color;
+      cursor: default;
+    }
   }
 }
