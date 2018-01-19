@@ -4,7 +4,7 @@ import DatePicker from 'react-datepicker'
 import moment from 'moment'
 
 /* eslint-disable react/no-multi-comp */
-class ExampleCustomInput extends React.Component {
+class ExampleCustomInput extends React.PureComponent {
   static propTypes = {
     onClick: PropTypes.func,
     value: PropTypes.string
@@ -21,7 +21,7 @@ class ExampleCustomInput extends React.Component {
   }
 }
 
-export default class CustomInput extends React.Component {
+export default class CustomInput extends React.PureComponent {
   constructor (props) {
     super(props)
     this.state = {
@@ -39,7 +39,7 @@ export default class CustomInput extends React.Component {
     return <div className="row">
       <pre className="column example__code">
         <code className="jsx">{`
-class ExampleCustomInput extends React.Component {
+class ExampleCustomInput extends React.PureComponent {
 
   render () {
     return (

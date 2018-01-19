@@ -2,7 +2,7 @@ import React from "react";
 
 import DatePicker from "react-datepicker";
 
-export default class TimeZoneDate extends React.Component {
+export default class TimeZoneDate extends React.PureComponent {
   state = {
     startDate: null,
     utcOffset: -4

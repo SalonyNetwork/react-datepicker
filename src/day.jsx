@@ -12,7 +12,7 @@ import {
   getDayOfWeekCode
 } from "./date_utils";
 
-export default class Day extends React.Component {
+export default class Day extends React.PureComponent {
   static propTypes = {
     day: PropTypes.object.isRequired,
     dayClassName: PropTypes.func,

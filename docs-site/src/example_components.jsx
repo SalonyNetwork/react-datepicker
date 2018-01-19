@@ -50,7 +50,7 @@ import OpenByDefault from './examples/open_by_default'
 import 'react-datepicker/dist/react-datepicker.css'
 import './style.scss'
 
-export default class exampleComponents extends React.Component {
+export default class exampleComponents extends React.PureComponent {
   componentDidMount () {
     hljs.initHighlightingOnLoad()
   }

@@ -42,7 +42,7 @@ const WrappedCalendar = onClickOutside(Calendar);
  * General datepicker component.
  */
 
-export default class DatePicker extends React.Component {
+export default class DatePicker extends React.PureComponent {
   static propTypes = {
     adjustDateOnChange: PropTypes.bool,
     allowSameDay: PropTypes.bool,

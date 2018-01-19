@@ -4,7 +4,7 @@ import Day from "./day";
 import WeekNumber from "./week_number";
 import * as utils from "./date_utils";
 
-export default class Week extends React.Component {
+export default class Week extends React.PureComponent {
   static propTypes = {
     day: PropTypes.object.isRequired,
     dayClassName: PropTypes.func,

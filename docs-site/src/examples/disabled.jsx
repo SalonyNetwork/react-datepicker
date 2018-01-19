@@ -1,7 +1,7 @@
 import React from "react";
 import DatePicker from "react-datepicker";
 
-export default class Disabled extends React.Component {
+export default class Disabled extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {

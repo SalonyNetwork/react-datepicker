@@ -6,7 +6,7 @@ import { getYear } from "./date_utils";
 
 var WrappedYearDropdownOptions = onClickOutside(YearDropdownOptions);
 
-export default class YearDropdown extends React.Component {
+export default class YearDropdown extends React.PureComponent {
   static propTypes = {
     adjustDateOnChange: PropTypes.bool,
     dropdownMode: PropTypes.oneOf(["scroll", "select"]).isRequired,

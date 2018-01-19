@@ -26,7 +26,7 @@ function generateMonthYears (minDate, maxDate) {
   return list
 }
 
-export default class MonthYearDropdownOptions extends React.Component {
+export default class MonthYearDropdownOptions extends React.PureComponent {
   static propTypes = {
     minDate: PropTypes.object.isRequired,
     maxDate: PropTypes.object.isRequired,

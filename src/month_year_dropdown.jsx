@@ -16,7 +16,7 @@ import {
 
 var WrappedMonthYearDropdownOptions = onClickOutside(MonthYearDropdownOptions)
 
-export default class MonthYearDropdown extends React.Component {
+export default class MonthYearDropdown extends React.PureComponent {
   static propTypes = {
     dropdownMode: PropTypes.oneOf(['scroll', 'select']).isRequired,
     dateFormat: PropTypes.string.isRequired,
@@ -42,7 +42,7 @@ export default class MonthYearDropdown extends React.Component {
 
       const timepoint = currDate.valueOf();
       options.push(<option key={timepoint} value={timepoint}>{formatDate(currDate, this.props.dateFormat)}</option>)
-      
+
       addMonths(currDate, 1)
     }
 

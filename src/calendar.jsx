@@ -45,7 +45,7 @@ const isDropdownSelect = (element = {}) => {
   );
 };
 
-export default class Calendar extends React.Component {
+export default class Calendar extends React.PureComponent {
   static propTypes = {
     adjustDateOnChange: PropTypes.bool,
     className: PropTypes.string,

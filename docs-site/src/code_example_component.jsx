@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export default class CodeExampleComponent extends React.Component {
+export default class CodeExampleComponent extends React.PureComponent {
   static propTypes = {
     children: PropTypes.element,
     id: PropTypes.number,

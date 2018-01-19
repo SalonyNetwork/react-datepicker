@@ -6,7 +6,7 @@ import * as utils from "./date_utils";
 
 const WrappedMonthDropdownOptions = onClickOutside(MonthDropdownOptions);
 
-export default class MonthDropdown extends React.Component {
+export default class MonthDropdown extends React.PureComponent {
   static propTypes = {
     dropdownMode: PropTypes.oneOf(["scroll", "select"]).isRequired,
     locale: PropTypes.string,
