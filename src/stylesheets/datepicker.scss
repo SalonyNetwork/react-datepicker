@@ -5,28 +5,79 @@
   display: inline-block;
 }
 
+.react-datepicker__months-lists-wrapper {
+  display: flex;
+  overflow: hidden;
+
+  .react-datepicker__months-list-container:nth-child(1),
+  .react-datepicker__months-list-container:nth-child(2) {
+    display: initial;
+  }
+
+  &--decrease {
+    .react-datepicker__months-list-container {
+      &--enter {
+        transform: translateX(-100%);
+      }
+
+      &--enter-active {
+        transform: translateX(0%);
+        transition: transform 500ms ease;
+      }
+
+      &--exit {
+        transform: translateX(-100%);
+      }
+
+      &--exit-active {
+        transform: translateX(0%);
+        transition: transform 500ms ease;
+      }
+    }
+  }
+
+  &--increase {
+    .react-datepicker__months-list-container {
+      &--enter {
+        transform: translateX(0%);
+      }
+
+      &--enter-active {
+        transform: translateX(-100%);
+        transition: transform 500ms ease;
+      }
+
+      &--exit {
+        transform: translateX(0%);
+      }
+
+      &--exit-active {
+        transform: translateX(-100%);
+        transition: transform 500ms ease;
+      }
+    }
+  }
+}
+
 .react-datepicker__months-list-container {
-  display: inline-block;
-  &--enter {
-    transform: translateX(-100%);
+  display: none;
+
+  &--prev {
+    order: 0;
   }
 
-  &--enter-active {
-    transform: translateX(0%);
-    transition: transform 10000ms ease;
+  &--current {
+    order: 1;
   }
 
-  &--exit {
-    transform: translateX(-100%);
-  }
-
-  &--exit-active {
-    transform: translateX(0%);
-    transition: transform 10000ms ease;
+  &--next {
+    order: 2;
   }
 }
 
 .react-datepicker {
+  width: 212px;
+
   font-family: $datepicker__font-family;
   font-size: $datepicker__font-size;
   background-color: #fff;

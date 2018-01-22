@@ -48,6 +48,9 @@ const isDropdownSelect = (element = {}) => {
   );
 };
 
+const INCREASE = 'increase'
+const DECREASE = 'decrease'
+
 export default class Calendar extends React.PureComponent {
   static propTypes = {
     adjustDateOnChange: PropTypes.bool,
@@ -141,15 +144,19 @@ export default class Calendar extends React.PureComponent {
       nextProps.preSelection &&
       !isSameDay(nextProps.preSelection, this.props.preSelection)
     ) {
+      const newDate = this.localizeDate(nextProps.preSelection)
       this.setState({
-        date: this.localizeDate(nextProps.preSelection)
+        date: newDate,
+        dateChange: newDate.isAfter(this.state.date) ? INCREASE : DECREASE
       });
     } else if (
       nextProps.openToDate &&
       !isSameDay(nextProps.openToDate, this.props.openToDate)
     ) {
+      const newDate = this.localizeDate(nextProps.preSelection)
       this.setState({
-        date: this.localizeDate(nextProps.openToDate)
+        date: newDate,
+        dateChange: newDate.isAfter(this.state.date) ? INCREASE : DECREASE
       });
     }
   }
@@ -187,7 +194,8 @@ export default class Calendar extends React.PureComponent {
   increaseMonth = () => {
     this.setState(
       {
-        date: addMonths(cloneDate(this.state.date), 1)
+        date: addMonths(cloneDate(this.state.date), 1),
+        dateChange: INCREASE
       },
       () => this.handleMonthChange(this.state.date)
     );
@@ -196,7 +204,8 @@ export default class Calendar extends React.PureComponent {
   decreaseMonth = () => {
     this.setState(
       {
-        date: subtractMonths(cloneDate(this.state.date), 1)
+        date: subtractMonths(cloneDate(this.state.date), 1),
+        dateChange: DECREASE
       },
       () => this.handleMonthChange(this.state.date)
     );
@@ -234,27 +243,33 @@ export default class Calendar extends React.PureComponent {
   };
 
   changeYear = year => {
+    const newDate = setYear(cloneDate(this.state.date), year)
     this.setState(
       {
-        date: setYear(cloneDate(this.state.date), year)
+        date: newDate,
+        dateChange: newDate.isAfter(this.state.date) ? INCREASE : DECREASE
       },
       () => this.handleYearChange(this.state.date)
     );
   };
 
   changeMonth = month => {
+    const newDate = setMonth(cloneDate(this.state.date), month)
     this.setState(
       {
-        date: setMonth(cloneDate(this.state.date), month)
+        date: newDate,
+        dateChange: newDate.isAfter(this.state.date) ? INCREASE : DECREASE
       },
       () => this.handleMonthChange(this.state.date)
     );
   };
 
   changeMonthYear = monthYear => {
+    const newDate = setYear(setMonth(cloneDate(this.state.date), getMonth(monthYear)), getYear(monthYear))
     this.setState(
       {
-        date: setYear(setMonth(cloneDate(this.state.date), getMonth(monthYear)), getYear(monthYear))
+        date: newDate,
+        dateChange: newDate.isAfter(this.state.date) ? INCREASE : DECREASE
       },
       () => this.handleMonthYearChange(this.state.date)
     );
@@ -360,25 +375,41 @@ export default class Calendar extends React.PureComponent {
     }
   };
 
-  childFactoryMaker() {
-    return (child) => {
-      console.log(child)
-      return React.cloneElement(child)
+  childFactory = (child) => {
+    const currentMonth = this.state.date.clone().startOf('month')
+    const childMonth = child.props.startOfMonth
+    const isCurrent = currentMonth.isSame(childMonth)
+    let className = null
+    if(currentMonth.isSame(childMonth)) {
+      className = 'react-datepicker__months-list-container--current'
+    } else if(currentMonth.isAfter(childMonth)) {
+      className = 'react-datepicker__months-list-container--prev'
+    } else {
+      className = 'react-datepicker__months-list-container--next'
     }
+    return React.cloneElement(child, { className, isCurrent })
   }
 
   renderMonths() {
+    const {date, dateChange} = this.state
+    const startOfMonth = date.clone().startOf('month')
     return (
-      <TransitionGroup>
+      <TransitionGroup
+        className={[
+          'react-datepicker__months-lists-wrapper',
+          dateChange ? `react-datepicker__months-lists-wrapper--${dateChange}` : null
+        ].join(' ')}
+        childFactory={this.childFactory}>
         <CSSTransition
-          key={this.state.date}
-          date={this.state.date}
-          timeout={50000}
+          key={startOfMonth}
+          date={date}
+          startOfMonth={startOfMonth}
+          timeout={500}
           classNames="react-datepicker__months-list-container-"
           >
-          { (status, {date}) => {
+          { (status, {date, className}) => {
             return (
-              <div className="react-datepicker__months-list-container">
+              <div className={["react-datepicker__months-list-container", className].join(' ')}>
                 <MonthsList
                   ref={el => { if(el) { this.monthContainer = el.monthContainer; } } }
                   onDropdownFocus={this.handleDropdownFocus}
