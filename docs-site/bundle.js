@@ -47807,7 +47807,6 @@
 	    var _this2 = this;
 
 	    var monthList = [];
-
 	    for (var i = 0; i < this.props.monthsShown; ++i) {
 	      var monthDate = (0, _date_utils.addMonths)((0, _date_utils.cloneDate)(this.props.date), i);
 	      var monthKey = "month-" + i;
