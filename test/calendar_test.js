@@ -19,7 +19,7 @@ describe("Calendar", function() {
   const dateFormat = "MMMM YYYY";
 
   function getCalendar(extraProps) {
-    return shallow(
+    return mount(
       <Calendar
         dateFormat={dateFormat}
         onSelect={() => {}}
