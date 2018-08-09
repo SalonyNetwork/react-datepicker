@@ -27475,9 +27475,7 @@
 	          disabledKeyboardNavigation: _this.props.disabledKeyboardNavigation,
 	          renderCustomHeader: _this.props.renderCustomHeader,
 	          popperProps: _this.props.popperProps,
-	          renderDayContents: _this.props.renderDayContents,
-	          prevButtonClassName: _this.props.prevButtonClassName,
-	          nextButtonClassName: _this.props.nextButtonClassName
+	          renderDayContents: _this.props.renderDayContents
 	        },
 	        _this.props.children
 	      );
@@ -27674,9 +27672,7 @@
 	  previousMonthButtonLabel: _propTypes2.default.string,
 	  nextMonthButtonLabel: _propTypes2.default.string,
 	  renderCustomHeader: _propTypes2.default.func,
-	  renderDayContents: _propTypes2.default.func,
-	  prevButtonClassName: _propTypes2.default.string,
-	  nextButtonClassName: _propTypes2.default.string
+	  renderDayContents: _propTypes2.default.func
 	};
 	exports.default = DatePicker;
 
@@ -28125,7 +28121,7 @@
 	        return;
 	      }
 
-	      var classes = ["react-datepicker__navigation", "react-datepicker__navigation--previous", _this.props.prevButtonClassName];
+	      var classes = ["react-datepicker__navigation", "react-datepicker__navigation--previous"];
 
 	      var clickHandler = _this.decreaseMonth;
 
@@ -28156,7 +28152,7 @@
 	        return;
 	      }
 
-	      var classes = ["react-datepicker__navigation", "react-datepicker__navigation--next", _this.props.nextButtonClassName];
+	      var classes = ["react-datepicker__navigation", "react-datepicker__navigation--next"];
 	      if (_this.props.showTimeSelect) {
 	        classes.push("react-datepicker__navigation--next--with-time");
 	      }
@@ -28198,168 +28194,6 @@
 	      );
 	    };
 
-<<<<<<< HEAD
-	    _this.renderDefaultHeader = function (_ref) {
-	      var monthDate = _ref.monthDate,
-	          i = _ref.i;
-	      return _react2.default.createElement(
-	        "div",
-	        { className: "react-datepicker__header" },
-	        _this.renderCurrentMonth(monthDate),
-	        _react2.default.createElement(
-	          "div",
-	          {
-	            className: "react-datepicker__header__dropdown react-datepicker__header__dropdown--" + _this.props.dropdownMode,
-	            onFocus: _this.handleDropdownFocus
-	          },
-	          _this.renderMonthDropdown(i !== 0),
-	          _this.renderMonthYearDropdown(i !== 0),
-	          _this.renderYearDropdown(i !== 0)
-	        ),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "react-datepicker__day-names" },
-	          _this.header(monthDate)
-	        )
-	      );
-	    };
-
-	    _this.renderCustomHeader = function (_ref2) {
-	      var monthDate = _ref2.monthDate,
-	          i = _ref2.i;
-
-	      if (i !== 0) {
-	        return null;
-	      }
-
-	      var prevMonthButtonDisabled = (0, _date_utils.allDaysDisabledBefore)(_this.state.date, "month", _this.props);
-
-	      var nextMonthButtonDisabled = (0, _date_utils.allDaysDisabledAfter)(_this.state.date, "month", _this.props);
-
-	      return _react2.default.createElement(
-	        "div",
-	        {
-	          className: "react-datepicker__header react-datepicker__header--custom",
-	          onFocus: _this.props.onDropdownFocus
-	        },
-	        _this.props.renderCustomHeader(_extends({}, _this.state, {
-	          changeMonth: _this.changeMonth,
-	          changeYear: _this.changeYear,
-	          decreaseMonth: _this.decreaseMonth,
-	          increaseMonth: _this.increaseMonth,
-	          prevMonthButtonDisabled: prevMonthButtonDisabled,
-	          nextMonthButtonDisabled: nextMonthButtonDisabled
-	        })),
-	        _react2.default.createElement(
-	          "div",
-	          { className: "react-datepicker__day-names" },
-	          _this.header(monthDate)
-	        )
-	      );
-	    };
-
-	    _this.childFactory = function (child) {
-	      var currentMonth = _this.state.date.clone().startOf('month');
-	      var childMonth = child.props.startOfMonth;
-	      var isCurrent = currentMonth.isSame(childMonth);
-	      var className = null;
-	      if (currentMonth.isSame(childMonth)) {
-	        className = 'react-datepicker__months-list-container--current';
-	      } else if (currentMonth.isAfter(childMonth)) {
-	        className = 'react-datepicker__months-list-container--prev';
-	      } else {
-	        className = 'react-datepicker__months-list-container--next';
-	      }
-	      return _react2.default.cloneElement(child, { className: className, isCurrent: isCurrent });
-	    };
-
-	    _this.renderMonths = function () {
-	      if (_this.props.showTimeSelectOnly) {
-	        return;
-	      }
-
-	      var monthList = [];
-	      for (var i = 0; i < _this.props.monthsShown; ++i) {
-	        var monthDate = (0, _date_utils.addMonths)((0, _date_utils.cloneDate)(_this.state.date), i);
-	        var monthKey = "month-" + i;
-	        monthList.push(_react2.default.createElement(
-	          "div",
-	          {
-	            key: monthKey,
-	            ref: function ref(div) {
-	              _this.monthContainer = div;
-	            },
-	            className: "react-datepicker__month-container"
-	          },
-	          _this.props.renderCustomHeader ? _this.renderCustomHeader({ monthDate: monthDate, i: i }) : _this.renderDefaultHeader({ monthDate: monthDate, i: i }),
-	          _react2.default.createElement(_month2.default, {
-	            day: monthDate,
-	            dayClassName: _this.props.dayClassName,
-	            onDayClick: _this.handleDayClick,
-	            onDayMouseEnter: _this.handleDayMouseEnter,
-	            onMouseLeave: _this.handleMonthMouseLeave,
-	            onWeekSelect: _this.props.onWeekSelect,
-	            formatWeekNumber: _this.props.formatWeekNumber,
-	            minDate: _this.props.minDate,
-	            maxDate: _this.props.maxDate,
-	            excludeDates: _this.props.excludeDates,
-	            highlightDates: _this.props.highlightDates,
-	            selectingDate: _this.state.selectingDate,
-	            includeDates: _this.props.includeDates,
-	            inline: _this.props.inline,
-	            fixedHeight: _this.props.fixedHeight,
-	            filterDate: _this.props.filterDate,
-	            preSelection: _this.props.preSelection,
-	            selected: _this.props.selected,
-	            selectsStart: _this.props.selectsStart,
-	            selectsEnd: _this.props.selectsEnd,
-	            showWeekNumbers: _this.props.showWeekNumbers,
-	            startDate: _this.props.startDate,
-	            endDate: _this.props.endDate,
-	            peekNextMonth: _this.props.peekNextMonth,
-	            utcOffset: _this.props.utcOffset,
-	            renderDayContents: _this.props.renderDayContents,
-	            disabledKeyboardNavigation: _this.props.disabledKeyboardNavigation
-	          })
-	        ));
-	      }
-	      var _this$state = _this.state,
-	          dateChange = _this$state.dateChange,
-	          date = _this$state.date;
-
-	      var startOfMonth = date.clone().startOf('month');
-	      return _react2.default.createElement(
-	        _TransitionGroup2.default,
-	        {
-	          className: (0, _classnames2.default)('react-datepicker__months-lists-wrapper', dateChange && "react-datepicker__months-lists-wrapper--" + dateChange),
-	          childFactory: _this.childFactory
-	        },
-	        _react2.default.createElement(
-	          _CSSTransition2.default,
-	          {
-	            key: startOfMonth,
-	            date: date,
-	            startOfMonth: startOfMonth,
-	            timeout: 500,
-	            classNames: "react-datepicker__months-list-container-"
-	          },
-	          function (status, _ref3) {
-	            var date = _ref3.date,
-	                className = _ref3.className;
-	            return _react2.default.createElement(
-	              "div",
-	              {
-	                className: (0, _classnames2.default)("react-datepicker__months-list-container", className)
-	              },
-	              monthList
-	            );
-	          }
-	        )
-	      );
-	    };
-
-=======
->>>>>>> fix conflicts
 	    _this.renderTimeSection = function () {
 	      if (_this.props.showTimeSelect) {
 	        return _react2.default.createElement(_time2.default, {
@@ -28377,7 +28211,8 @@
 	          showMonthYearDropdown: _this.props.showMonthYearDropdown,
 	          showYearDropdown: _this.props.showYearDropdown,
 	          withPortal: _this.props.withPortal,
-	          monthRef: _this.state.monthContainer
+	          monthRef: _this.state.monthContainer,
+	          injectTimes: _this.props.injectTimes
 	        });
 	      }
 	    };
@@ -28421,9 +28256,9 @@
 
 	  Calendar.prototype.componentDidUpdate = function componentDidUpdate(prevProps) {
 	    if (this.props.preSelection && !(0, _date_utils.isSameDay)(this.props.preSelection, prevProps.preSelection)) {
-	      this.changeStateDate(this.localizeDate(nextProps.preSelection));
+	      this.changeStateDate(this.localizeDate(this.props.preSelection));
 	    } else if (this.props.openToDate && !(0, _date_utils.isSameDay)(this.props.openToDate, prevProps.openToDate)) {
-	      this.changeStateDate(this.localizeDate(nextProps.openToDate));
+	      this.changeStateDate(this.localizeDate(this.props.openToDate));
 	    }
 	  };
 
@@ -28445,8 +28280,8 @@
 	    }
 
 	    var _state = this.state,
-	        date = _state.date,
-	        dateChange = _state.dateChange;
+	        dateChange = _state.dateChange,
+	        date = _state.date;
 
 	    var startOfMonth = date.clone().startOf('month');
 
@@ -28525,7 +28360,8 @@
 	              yearDropdownItemNumber: _this3.props.yearDropdownItemNumber,
 	              setOpen: _this3.props.setOpen,
 	              useShortMonthInDropdown: _this3.props.useShortMonthInDropdown,
-	              renderHeader: _this3.props.renderCustomHeader ? _this3.renderCustomHeader : _this3.renderDefaultHeader
+	              renderDayContents: _this3.props.renderDayContents,
+	              renderCustomHeader: _this3.props.renderCustomHeader
 	            })
 	          );
 	        }
@@ -28620,9 +28456,7 @@
 	  previousMonthButtonLabel: _propTypes2.default.string,
 	  nextMonthButtonLabel: _propTypes2.default.string,
 	  renderCustomHeader: _propTypes2.default.func,
-	  renderDayContents: _propTypes2.default.func,
-	  prevButtonClassName: _propTypes2.default.string,
-	  nextButtonClassName: _propTypes2.default.string
+	  renderDayContents: _propTypes2.default.func
 	};
 	exports.default = Calendar;
 
@@ -47845,7 +47679,9 @@
 	          startDate: this.props.startDate,
 	          endDate: this.props.endDate,
 	          peekNextMonth: this.props.peekNextMonth,
-	          utcOffset: this.props.utcOffset })
+	          utcOffset: this.props.utcOffset,
+	          renderDayContents: this.props.renderDayContents
+	        })
 	      ));
 	    }
 	    return monthList;
@@ -47893,6 +47729,7 @@
 	  setOpen: _propTypes2.default.func,
 	  useShortMonthInDropdown: _propTypes2.default.bool,
 	  renderCustomHeader: _propTypes2.default.func,
+	  renderDayContents: _propTypes2.default.func,
 
 	  onChangeMonth: _propTypes2.default.func.isRequired,
 	  onChangeMonthYear: _propTypes2.default.func.isRequired,

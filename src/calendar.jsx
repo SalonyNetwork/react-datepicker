@@ -121,8 +121,6 @@ export default class Calendar extends React.PureComponent {
     nextMonthButtonLabel: PropTypes.string,
     renderCustomHeader: PropTypes.func,
     renderDayContents: PropTypes.func,
-    prevButtonClassName: PropTypes.string,
-    nextButtonClassName: PropTypes.string
   };
 
   static get defaultProps() {
@@ -344,7 +342,6 @@ export default class Calendar extends React.PureComponent {
     const classes = [
       "react-datepicker__navigation",
       "react-datepicker__navigation--previous",
-      this.props.prevButtonClassName
     ];
 
     let clickHandler = this.decreaseMonth;
@@ -388,7 +385,6 @@ export default class Calendar extends React.PureComponent {
     const classes = [
       "react-datepicker__navigation",
       "react-datepicker__navigation--next",
-      this.props.nextButtonClassName
     ];
     if (this.props.showTimeSelect) {
       classes.push("react-datepicker__navigation--next--with-time");
@@ -450,6 +446,7 @@ export default class Calendar extends React.PureComponent {
           showYearDropdown={this.props.showYearDropdown}
           withPortal={this.props.withPortal}
           monthRef={this.state.monthContainer}
+          injectTimes={this.props.injectTimes}
         />
       );
     }

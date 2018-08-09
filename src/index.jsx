@@ -164,9 +164,7 @@ export default class DatePicker extends React.PureComponent {
     previousMonthButtonLabel: PropTypes.string,
     nextMonthButtonLabel: PropTypes.string,
     renderCustomHeader: PropTypes.func,
-    renderDayContents: PropTypes.func,
-    prevButtonClassName: PropTypes.string,
-    nextButtonClassName: PropTypes.string
+    renderDayContents: PropTypes.func
   };
 
   static get defaultProps() {
@@ -655,8 +653,6 @@ export default class DatePicker extends React.PureComponent {
         renderCustomHeader={this.props.renderCustomHeader}
         popperProps={this.props.popperProps}
         renderDayContents={this.props.renderDayContents}
-        prevButtonClassName={this.props.prevButtonClassName}
-        nextButtonClassName={this.props.nextButtonClassName}
       >
         {this.props.children}
       </WrappedCalendar>

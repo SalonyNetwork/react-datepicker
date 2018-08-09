@@ -72,6 +72,7 @@ class MonthsList extends React.PureComponent {
     setOpen: PropTypes.func,
     useShortMonthInDropdown: PropTypes.bool,
     renderCustomHeader: PropTypes.func,
+    renderDayContents: PropTypes.func,
 
     onChangeMonth: PropTypes.func.isRequired,
     onChangeMonthYear: PropTypes.func.isRequired,
@@ -280,7 +281,9 @@ class MonthsList extends React.PureComponent {
             startDate={this.props.startDate}
             endDate={this.props.endDate}
             peekNextMonth={this.props.peekNextMonth}
-            utcOffset={this.props.utcOffset}/>
+            utcOffset={this.props.utcOffset}
+            renderDayContents={this.props.renderDayContents}
+          />
         </div>
       );
     }
