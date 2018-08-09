@@ -162,12 +162,12 @@ export default class Calendar extends React.PureComponent {
       this.props.preSelection &&
       !isSameDay(this.props.preSelection, prevProps.preSelection)
     ) {
-      this.changeStateDate(this.localizeDate(nextProps.preSelection));
+      this.changeStateDate(this.localizeDate(this.props.preSelection));
     } else if (
       this.props.openToDate &&
       !isSameDay(this.props.openToDate, prevProps.openToDate)
     ) {
-      this.changeStateDate(this.localizeDate(nextProps.openToDate));
+      this.changeStateDate(this.localizeDate(this.props.openToDate));
     }
   }
 
