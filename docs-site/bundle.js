@@ -27669,8 +27669,8 @@
 	  excludeTimes: _propTypes2.default.array,
 	  useShortMonthInDropdown: _propTypes2.default.bool,
 	  clearButtonTitle: _propTypes2.default.string,
-	  previousMonthButtonLabel: _propTypes2.default.string,
-	  nextMonthButtonLabel: _propTypes2.default.string,
+	  previousMonthButtonLabel: _propTypes2.default.node,
+	  nextMonthButtonLabel: _propTypes2.default.node,
 	  renderCustomHeader: _propTypes2.default.func,
 	  renderDayContents: _propTypes2.default.func
 	};

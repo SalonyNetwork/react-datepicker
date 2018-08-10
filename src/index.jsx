@@ -161,8 +161,8 @@ export default class DatePicker extends React.PureComponent {
     excludeTimes: PropTypes.array,
     useShortMonthInDropdown: PropTypes.bool,
     clearButtonTitle: PropTypes.string,
-    previousMonthButtonLabel: PropTypes.string,
-    nextMonthButtonLabel: PropTypes.string,
+    previousMonthButtonLabel: PropTypes.node,
+    nextMonthButtonLabel: PropTypes.node,
     renderCustomHeader: PropTypes.func,
     renderDayContents: PropTypes.func
   };
