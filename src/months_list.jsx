@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 import PropTypes from "prop-types";
 import Month from "./month";
-import MonthDropdown from './month_dropdown';
-import MonthYearDropdown from './month_year_dropdown';
-import YearDropdown from './year_dropdown';
+import MonthDropdown from "./month_dropdown";
+import MonthYearDropdown from "./month_year_dropdown";
+import YearDropdown from "./year_dropdown";
 
 import {
   now,
@@ -33,11 +33,7 @@ import {
 
 class MonthsList extends React.PureComponent {
   static propTypes = {
-    adjustDateOnChange: PropTypes.bool,
-    dateFormat: PropTypes.oneOfType([PropTypes.string, PropTypes.array])
-      .isRequired,
     dayClassName: PropTypes.func,
-    dropdownMode: PropTypes.oneOf(["scroll", "select"]).isRequired,
     endDate: PropTypes.object,
     excludeDates: PropTypes.array,
     filterDate: PropTypes.func,
@@ -46,198 +42,26 @@ class MonthsList extends React.PureComponent {
     highlightDates: PropTypes.instanceOf(Map),
     includeDates: PropTypes.array,
     inline: PropTypes.bool,
-    locale: PropTypes.string,
     maxDate: PropTypes.object,
     minDate: PropTypes.object,
     monthsShown: PropTypes.number,
-    onDropdownFocus: PropTypes.func,
-    onSelect: PropTypes.func.isRequired,
     onWeekSelect: PropTypes.func,
     peekNextMonth: PropTypes.bool,
-    scrollableYearDropdown: PropTypes.bool,
-    scrollableMonthYearDropdown: PropTypes.bool,
     preSelection: PropTypes.object,
     selected: PropTypes.object,
     selectsEnd: PropTypes.bool,
     selectsStart: PropTypes.bool,
-    showMonthDropdown: PropTypes.bool,
-    showMonthYearDropdown: PropTypes.bool,
     showWeekNumbers: PropTypes.bool,
-    showYearDropdown: PropTypes.bool,
     startDate: PropTypes.object,
-    useWeekdaysShort: PropTypes.bool,
-    utcOffset: PropTypes.number,
-    weekLabel: PropTypes.string,
-    yearDropdownItemNumber: PropTypes.number,
-    setOpen: PropTypes.func,
-    useShortMonthInDropdown: PropTypes.bool,
-    renderCustomHeader: PropTypes.func,
+    utcOffset: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+    renderHeader: PropTypes.func,
     renderDayContents: PropTypes.func,
 
-    onChangeMonth: PropTypes.func.isRequired,
-    onChangeMonthYear: PropTypes.func.isRequired,
-    onChangeYear: PropTypes.func.isRequired,
-    onDropdownFocus: PropTypes.func.isRequired,
     onDayClick: PropTypes.func.isRequired,
     onDayMouseEnter: PropTypes.func.isRequired,
     onMouseLeave: PropTypes.func.isRequired,
     selectingDate: PropTypes.object,
     date: PropTypes.object.isRequired
-  }
-
-  renderCurrentMonth = (date = this.props.date) => {
-    const classes = ["react-datepicker__current-month"];
-
-    if (this.props.showYearDropdown) {
-      classes.push("react-datepicker__current-month--hasYearDropdown");
-    }
-    if (this.props.showMonthDropdown) {
-      classes.push("react-datepicker__current-month--hasMonthDropdown");
-    }
-    if (this.props.showMonthYearDropdown) {
-      classes.push("react-datepicker__current-month--hasMonthYearDropdown");
-    }
-    return (
-      <div className={classes.join(" ")}>
-        {formatDate(date, this.props.dateFormat)}
-      </div>
-    );
-  };
-
-  renderMonthDropdown = (overrideHide = false) => {
-    if (!this.props.showMonthDropdown) {
-      return;
-    }
-    return (
-      <MonthDropdown
-        dropdownMode={this.props.dropdownMode}
-        locale={this.props.locale}
-        dateFormat={this.props.dateFormat}
-        onChange={this.props.onChangeMonth}
-        month={getMonth(this.props.date)}
-        useShortMonthInDropdown={this.props.useShortMonthInDropdown} />
-    );
-  };
-
-  renderMonthYearDropdown = (overrideHide = false) => {
-    if (!this.props.showMonthYearDropdown) {
-      return;
-    }
-    return (
-      <MonthYearDropdown
-        dropdownMode={this.props.dropdownMode}
-        locale={this.props.locale}
-        dateFormat={this.props.dateFormat}
-        onChange={this.props.onChangeMonthYear}
-        minDate={this.props.minDate}
-        maxDate={this.props.maxDate}
-        date={this.props.date}
-        scrollableMonthYearDropdown={this.props.scrollableMonthYearDropdown}
-      />
-    );
-  };
-
-  renderDefaultHeader = ({ monthDate, i }) => (
-    <div className="react-datepicker__header">
-      {this.renderCurrentMonth(monthDate)}
-      <div
-        className={`react-datepicker__header__dropdown react-datepicker__header__dropdown--${
-          this.props.dropdownMode
-        }`}
-        onFocus={this.handleDropdownFocus}
-      >
-        {this.renderMonthDropdown(i !== 0)}
-        {this.renderMonthYearDropdown(i !== 0)}
-        {this.renderYearDropdown(i !== 0)}
-      </div>
-      <div className="react-datepicker__day-names">
-        {this.header(monthDate)}
-      </div>
-    </div>
-  );
-
-  renderCustomHeader = ({ monthDate, i }) => {
-    if (i !== 0) {
-      return null;
-    }
-
-    const prevMonthButtonDisabled = allDaysDisabledBefore(
-      this.state.date,
-      "month",
-      this.props
-    );
-
-    const nextMonthButtonDisabled = allDaysDisabledAfter(
-      this.state.date,
-      "month",
-      this.props
-    );
-
-    return (
-      <div
-        className="react-datepicker__header react-datepicker__header--custom"
-        onFocus={this.props.onDropdownFocus}
-      >
-        {this.props.renderCustomHeader({
-          ...this.state,
-          changeMonth: this.changeMonth,
-          changeYear: this.changeYear,
-          decreaseMonth: this.decreaseMonth,
-          increaseMonth: this.increaseMonth,
-          prevMonthButtonDisabled,
-          nextMonthButtonDisabled
-        })}
-        <div className="react-datepicker__day-names">
-          {this.header(monthDate)}
-        </div>
-      </div>
-    );
-  };
-
-  header = (date = this.props.date) => {
-    const startOfWeek = getStartOfWeek(cloneDate(date));
-    const dayNames = [];
-    if (this.props.showWeekNumbers) {
-      dayNames.push(
-        <div key="W" className="react-datepicker__day-name">
-          {this.props.weekLabel || "#"}
-        </div>
-      );
-    }
-    return dayNames.concat(
-      [0, 1, 2, 3, 4, 5, 6].map(offset => {
-        const day = addDays(cloneDate(startOfWeek), offset);
-        const localeData = getLocaleData(day);
-        const weekDayName = this.props.useWeekdaysShort
-          ? getWeekdayShortInLocale(localeData, day)
-          : getWeekdayMinInLocale(localeData, day);
-        return (
-          <div key={offset} className="react-datepicker__day-name">
-            {weekDayName}
-          </div>
-        );
-      })
-    );
-  };
-
-  renderYearDropdown = (overrideHide = false) => {
-    if (!this.props.showYearDropdown || overrideHide) {
-      return;
-    }
-    return (
-      <YearDropdown
-        adjustDateOnChange={this.props.adjustDateOnChange}
-        date={this.props.date}
-        onSelect={this.props.onSelect}
-        setOpen={this.props.setOpen}
-        dropdownMode={this.props.dropdownMode}
-        onChange={this.props.onChangeYear}
-        minDate={this.props.minDate}
-        maxDate={this.props.maxDate}
-        year={getYear(this.props.date)}
-        scrollableYearDropdown={this.props.scrollableYearDropdown}
-        yearDropdownItemNumber={this.props.yearDropdownItemNumber}/>
-    );
   };
 
   render() {
@@ -253,9 +77,7 @@ class MonthsList extends React.PureComponent {
           }}
           className="react-datepicker__month-container"
         >
-          {this.props.renderCustomHeader
-            ? this.renderCustomHeader({ monthDate, i })
-            : this.renderDefaultHeader({ monthDate, i })}
+          {this.props.renderHeader({ monthDate, i })}
           <Month
             day={monthDate}
             dayClassName={this.props.dayClassName}
@@ -288,7 +110,7 @@ class MonthsList extends React.PureComponent {
       );
     }
     return monthList;
-  };
+  }
 }
 
-export default MonthsList
+export default MonthsList;
