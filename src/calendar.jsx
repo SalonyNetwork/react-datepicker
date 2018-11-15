@@ -442,7 +442,7 @@ export default class Calendar extends React.PureComponent {
         onSelect={this.props.onSelect}
         setOpen={this.props.setOpen}
         dropdownMode={this.props.dropdownMode}
-        onChange={this.yearChange}
+        onChange={this.changeYear}
         minDate={this.props.minDate}
         maxDate={this.props.maxDate}
         year={getYear(this.state.date)}
